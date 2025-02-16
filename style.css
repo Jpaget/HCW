@@ -1,0 +1,275 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5; /* Light grey */
+  color: #333; /* Dark grey for text */
+}
+
+header {
+  background-color: #8B0000; /* Dark red */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.logo {
+  width: 120px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 15px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 5px 0 0;
+}
+
+nav {
+  background: black;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 14px 20px;
+}
+
+nav ul li a:hover {
+  background: #8B0000;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: black;
+  padding: 0;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  display: block;
+  width: 100%;
+}
+
+.dropdown-menu li a {
+  padding: 10px;
+  display: block;
+  color: white;
+  text-align: left;
+}
+
+.dropdown-menu li a:hover {
+  background: #8B0000;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style the table */
+#rankingsTable {
+width: 100%;
+border-collapse: collapse; /* Ensures borders are combined */
+margin-top: 20px;
+}
+
+/* Style the table headers */
+#rankingsTable th {
+border: 1px solid #000; /* Add border to table headers */
+padding: 10px;
+background-color: #f4f4f4; /* Light background color for headers */
+text-align: left; /* Align text to the left in headers */
+}
+
+/* Style the table cells */
+#rankingsTable td {
+border: 1px solid #000; /* Add border to table data cells */
+padding: 8px;
+text-align: left; /* Align text to the left in cells */
+white-space: normal; /* Allow text to wrap */
+word-wrap: break-word; /* Break long words if necessary */
+}
+
+/* Optional: Style the rows to make them alternate colors for better readability */
+#rankingsTable tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+#rankingsTable tr:nth-child(odd) {
+background-color: #ffffff;
+}
+
+/* Adjust container for multiple tables */
+.table-container {
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+
+.table-column {
+width: 48%; /* Adjust this value to your preference */
+}
+
+/* Ensure that both tables have equal row heights */
+.rankings-table {
+width: 100%;
+border-collapse: collapse;
+margin: 20px 0;
+}
+
+/* Apply fixed height of 3 lines to each row */
+.rankings-table tr {
+height: 100px; /* Adjust this based on your font size and line height */
+}
+
+.rankings-table th,
+.rankings-table td {
+padding: 8px 12px;
+text-align: left;
+border: 1px solid #ddd;
+}
+
+/* Prevent content wrapping */
+.rankings-table td, .rankings-table th {
+white-space: normal;
+word-wrap: break-word;
+}
+
+/* Apply the fixed height to all rows */
+.rankings-table td {
+min-height: 72px; /* Minimum height to ensure the row is tall enough */
+vertical-align: top; /* Align content at the top of the cell */
+}
+
+.rankings-table th {
+background-color: #f2f2f2;
+}
+
+.rankings-table tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+.rankings-table tr:hover {
+background-color: #f1f1f1;
+}
+
+/* Add container to display tables side by side */
+.rankings-container {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.rankings-container .rankings-table {
+width: 48%; /* You can adjust this if needed */
+}
+
+
+/* Style for the year navigation buttons */
+.year-nav-btn {
+  background-color: red; /* Red color to match the header */
+  color: white;  /* White color for the text inside the button */
+  border: none;  /* Remove default border */
+  padding: 10px 15px;  /* Add some padding to make the buttons bigger */
+  font-size: 20px;  /* Increase font size for better visibility */
+  cursor: pointer;  /* Change the cursor to a pointer when hovering */
+  border-radius: 50%;  /* Make the buttons circular */
+  transition: background-color 0.3s ease, transform 0.2s ease;  /* Smooth transition for color change and scaling */
+}
+
+/* Change color on hover */
+.year-nav-btn:hover {
+  background-color: darkred;  /* Darker red when hovering */
+  transform: scale(1.1);  /* Slightly enlarge the button on hover */
+}
+
+/* Style for the arrow icons themselves (if you're using text or font icons) */
+.year-nav-btn:before {
+  content: '\2190';  /* Left arrow for previous year */
+  font-size: 30px;  /* Make the arrow larger */
+  display: inline-block;
+  margin-right: 10px;  /* Space between the arrow and the text */
+}
+
+/* Adjust for next year button */
+#next-year:before {
+  content: '\2192';  /* Right arrow for next year */
+}
+.year-navigation {
+  display: flex;
+  justify-content: space-between; /* Position items at the edges */
+  width: 100%; /* Make it take the full width */
+  padding: 0 20px; /* Optional padding for spacing */
+}
+
+.year-nav-btn {
+  background: none;
+  border: none;
+  font-size: 2rem; /* Adjust size as needed */
+  color: red; /* Or any color you prefer */
+  cursor: pointer;
+}
+
+.year-nav-btn i {
+  color: red; /* Change the arrow color */
+}
+
+.year-nav-btn:focus {
+  outline: none;
+}
+#current-year {
+  display: none;  /* Hides the element completely (it won't take up space) */
+}
