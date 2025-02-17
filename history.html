@@ -16,25 +16,62 @@
       </div>
     </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="about.html">About</a>
-        <ul class="dropdown-menu">
-          <li><a href="history.html">History</a></li>
-          <li><a href="how-to-join.html">How to Join</a></li>
-        </ul>
-      </li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="membership.html">Membership</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <div id="nav-placeholder"></div>
+    <script>
+      fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("nav-placeholder").innerHTML = data;
+        })
+        .catch(error => console.error("Error loading navigation:", error));
+    </script>
   <main>
     <h2>History of the Hammer Circle</h2>
-    <p>Details about the history of the Hammer Circle...</p>
+    <p>Since its creation, The Hammer Circle has included nearly every leading UK thrower and coach, as well as many honorary members from other nations. 
+      All have contributed to the development of our unique & challenging event.
+      
+    </p>
+      <h2>Foundation</h2>
+      <p>On 2 August 1952, many of the country’s top hammer throwers took part in an invitation meeting at Alperton, Middlesex. 
+        Hammer throwers were interested in forming a club or association to build on the spirit of friendship and mutual coaching that had developed in the event over many years, 
+        and to tackle the limited (in the early 1950s) opportunities for coaching and competition.
+        After this meeting the throwers agreed to establish a new association called The Hammer Circle to advance and promote hammer throwing in the UK.
+        The original members included the then English record holder Peter Allday and a future Olympian Don Anthony, along with other leading throwers Charles Reidy, Don Vanhegan, 
+        Frank Gandy and Dennis Moore. The first President of the Hammer Circle was Malcolm Nokes, the Empire Games hammer champion in 1930 and 1934 and still Britain’s only Olympic 
+        hammer medallist (Bronze in Paris in 1924). The Honorary Secretary and Treasurer was Dennis Cullum, the leading hammer coach at the time. 
+        Also in attendance at the first meeting was the great coach Franz Stampfl.
+        Other great British hammer throwers include Peter Allday and Mike Ellis. 
+        Peter Allday remembers the very early discussions about a British Hammer Throwing Club; even before the Alperton meeting. His recollections are HERE. 
+      </p>
+      <h2>Purpose</h2>
+      <p>The objectives of the Hammer Circle were:</p>
+      <ul>
+        <li>To bind together in tangible form the fraternity (now sorority too!) of British hammer throwers, and to give them a symbol denoting both membership and personal achievement</li>
+        <li>To provide an incentive to throwers to reach the standard required for membership of the Circle and thereafter to give them tangible recognition of their progress stage by stage</li>
+        <li>To form a link between all British hammer throwers whereby information of mutual interest, such as Best Performance Lists, details of Meetings etc., could be exchanged</li>
+        <li>To encourage more athletes, particularly juniors, to become hammer throwers, and to help them in every way with advice, coaching, and the provision of training facilities</li>
+        <li>To encourage an increase in the number of hammer competitions both in club and Open meetings, particularly in areas where few competitions at present take place</li>
+        <li>To keep members informed of interpretations of rules and official decisions which affect hammer throwers and to act on their behalf should the necessity arise</li>
+        <li>To do everything possible and practicable to raise and maintain the status of British hammer throwing both athletically and in the public esteem</li>
+    </ul>
+    <h2>Development</h2>
+    <p>
+      Times change, and The Hammer Circle has changed , becoming more & more open to junior members , and to both genders. 
+      Our efforts have led to the expansion of competition availability , and of coaching opportunities .
+
+      Hammer throwing is a particularly challenging sport, both technically and in terms of its physical requirements, which include strength, speed, power, 
+      balance & yet relaxation to maximise the effective radius of the hammer , all the while sustaining the huge weight and speed of the hammer head. 
+      Correct guidance and support is hugely important. Click here to hear from one of the UK’s leading Juniors, who tells what The Hammer Circle has meant to him in his career so far!
+
+    </p>
+
+    <h2>How to join</h2>
+    <p>Please see our <a href="how-to-join.html">membership page</a> on how to become a member.</p>
+
+
+
+    
+
   </main>
   <footer>
     <p>&copy; 2024 Hammer Circle. All Rights Reserved.</p>

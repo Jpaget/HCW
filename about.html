@@ -10,15 +10,15 @@
   <header>
     <h1>About the Hammer Circle</h1>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="membership.html">Membership</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <div id="nav-placeholder"></div>
+    <script>
+      fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("nav-placeholder").innerHTML = data;
+        })
+        .catch(error => console.error("Error loading navigation:", error));
+    </script>
   <main>
     <h2>Our Mission</h2>
     <p>Since its creation, The Hammer Circle has included nearly every leading UK thrower and coach, as well as many honorary members from other nations. All have contributed to the development of our unique & challenging event.</p>
