@@ -2,73 +2,16 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 import os
+from itertools import product
 
 # Define the list of event, sex, year, and agegroup combinations as strings
-combinations = [
-    "HT7.26K M 2024 ALL",
-    "HT7.26K M 2023 ALL",
-    "HT7.26K M 2022 ALL",
-    "HT7.26K M 2021 ALL",
-    "HT7.26K M 2020 ALL",
-    "HT7.26K M 2019 ALL",
-    "HT7.26K M 2018 ALL",
-    "HT7.26K M 2017 ALL",
-    "HT7.26K M 2016 ALL",
-    "HT7.26K M 2015 ALL",
-    "HT7.26K M 2014 ALL",
-    "HT7.26K M 2013 ALL",
-    "HT7.26K M 2012 ALL",
-    "HT7.26K M 2011 ALL",
-    "HT7.26K M 2010 ALL",
-    "HT4K W 2024 ALL",
-    "HT4K W 2023 ALL",
-    "HT4K W 2022 ALL",
-    "HT4K W 2021 ALL",
-    "HT4K W 2020 ALL",
-    "HT4K W 2019 ALL",
-    "HT4K W 2019 ALL",
-    "HT4K W 2018 ALL",
-    "HT4K W 2017 ALL",
-    "HT4K W 2016 ALL",
-    "HT4K W 2015 ALL",
-    "HT4K W 2014 ALL",
-    "HT4K W 2013 ALL",
-    "HT4K W 2012 ALL",
-    "HT4K W 2011 ALL",
-    "HT4K W 2010 ALL",
-    "HT6K M 2024 U20",
-    "HT6K M 2023 U20",
-    "HT6K M 2022 U20",
-    "HT6K M 2021 U20",
-    "HT6K M 2020 U20",
-    "HT6K M 2019 U20",
-    "HT6K M 2018 U20",
-    "HT6K M 2017 U20",
-    "HT6K M 2016 U20",
-    "HT6K M 2015 U20",
-    "HT6K M 2014 U20",
-    "HT6K M 2013 U20",
-    "HT6K M 2012 U20",
-    "HT6K M 2011 U20",
-    "HT6K M 2010 U20",
-    "HT4K W 2024 U20",
-    "HT4K W 2023 U20",
-    "HT4K W 2022 U20",
-    "HT4K W 2021 U20",
-    "HT4K W 2020 U20",
-    "HT4K W 2019 U20",
-    "HT4K W 2019 U20",
-    "HT4K W 2018 U20",
-    "HT4K W 2017 U20",
-    "HT4K W 2016 U20",
-    "HT4K W 2015 U20",
-    "HT4K W 2014 U20",
-    "HT4K W 2013 U20",
-    "HT4K W 2012 U20",
-    "HT4K W 2011 U20",
-    "HT4K W 2010 U20",
-    # Add more combinations as needed
-]
+events = ["HT7.26K M", "HT4K W", "HT6K M", "HT4K W","HT5K M","HT4K M","HT3K W","HT3K W"]
+age_groups = ["ALL", "ALL", "U20", "U20","U17","U15", "U17","U15"]
+years = range(2024, 2009, -1)  # From 2024 to 2010
+
+combinations = [f"{event} {year} {age}" for event, age in zip(events, age_groups) for year in years]
+
+# print(combinations)  # To check the output
 
 # Create the subfolder 'rankings_csv' if it doesn't exist
 if not os.path.exists('rankings_csv'):

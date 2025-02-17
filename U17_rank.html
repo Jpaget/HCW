@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hammer Circle</title>
+  <title>Senior Rankings - Hammer Circle</title> <!-- Changed title here -->
+  
+  <!-- Add Font Awesome CDN link here -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,13 +44,36 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  
   <main>
-    <section id="intro">
-      <h2><a href="about.html">About the Hammer Circle</a></h2>
-      <p>The Hammer Circle is the association of hammer throwers in the UK...</p>
-    </section>
+    <h2 id="rankings-heading">Senior Rankings: 2024</h2> <!-- Changed here -->
+    
+    <!-- Year Navigation -->
+    <div class="year-navigation">
+      <button id="prev-year" class="year-nav-btn"><i class="fas fa-arrow-left"></i></button> <!-- Font Awesome left arrow -->
+      <span id="current-year">2024</span>
+      <button id="next-year" class="year-nav-btn"><i class="fas fa-arrow-right"></i></button> <!-- Font Awesome right arrow -->
+    </div>
+    
+    <!-- Two columns for displaying the tables side by side -->
+    <div class="table-container">
+      <!-- Men’s Hammer Throw Table -->
+      <div class="table-column">
+        <h3>Men's 5kg</h3> <!-- Changed here -->
+        <table id="mensHT5K17" class="rankings-table">
+          <!-- Table headers will be added dynamically -->
+        </table>
+      </div>
+
+      <!-- Women's Hammer Throw Table -->
+      <div class="table-column">
+        <h3>Women's 3kg</h3> <!-- Changed here -->
+        <table id="womensHT3K17" class="rankings-table">
+          <!-- Table headers will be added dynamically -->
+        </table>
+      </div>
+    </div>
   </main>
+  <script src="rankingsU17.js"></script>
   <footer>
     <p>&copy; 2024 Hammer Circle. All Rights Reserved.</p>
   </footer>
