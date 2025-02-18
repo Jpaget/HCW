@@ -273,3 +273,74 @@ width: 48%; /* You can adjust this if needed */
 #current-year {
   display: none;  /* Hides the element completely (it won't take up space) */
 }
+
+
+
+
+
+/* Blog Post Styles */
+main {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.blog-post a {
+  color: #8B0000;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+.read-more {
+  font-weight: bold;
+  color: #8B0000;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.blog-footer {
+  font-size: 0.9em;
+  color: #777;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-header h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
