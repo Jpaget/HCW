@@ -4,7 +4,7 @@ If you’re opening the rankings.html directly in your browser (file:// protocol
 You can use Python's built-in HTTP server to do this. Navigate to your project directory in the terminal/command prompt, and run:
 
 python -m http.server 
-This will start a local server at http://localhost:8000/, and you can access rankings.html by going to http://localhost:8000/index.html.
+This will start a local server at http://localhost:8000/, and you can access rankings.html by going to http://localhost:8000/index.html
 
 
 python -m http.server 8000
