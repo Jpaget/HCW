@@ -8,3 +8,15 @@ This will start a local server at http://localhost:8000/, and you can access ran
 
 
 python -m http.server 8000
+
+
+
+
+Ideas/tasks:
+
+Steps to Automate Weekly CSV Updates
+Create a Python script (scrape_rankings.py) that fetches new rankings and updates the CSV files.
+Set up a GitHub Actions workflow to run the script on a schedule.
+Commit and push changes to your repository to update the CSVs.
+
+
