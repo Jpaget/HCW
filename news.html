@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News - Hammer Circle</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .extra-content {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Latest News</h1>
   </header>
 
-  <nav>    <ul>
+  <nav>    
+    <ul>
       <li><a href="index.html">Home</a></li>
       <li class="dropdown">
         <a href="about.html">About</a>
@@ -45,11 +51,46 @@
     <!-- Blog Post 1 -->
     <div class="blog-post">
       <div class="blog-header">
-        <h2>Hammer Circle AGM 2024</h2>
-        <h3>March 15, 2024 - Birmingham</h3>
+        <h2>Note about Safety Issues and “Dropping” of Hammer Event</h2>
       </div>
-      <p>Join us for the Annual General Meeting of the Hammer Circle! We'll discuss the upcoming events, initiatives, and much more. Stay updated on the latest developments for 2024.</p>
-      <a href="agmpdf.pdf" class="read-more" target="_blank">Read More</a>
+      <p>
+        Note from The Hammer Circle in response to recent reported instances of hammer and discus events being dropped from League Meetings.
+        Our event has long been too readily placed in the “Too difficult” box by individuals responsible for athletics training and competition. 
+        This is not an approach which sits well with values of fairness and ethics, which should be at the heart of Sport.
+      </p>
+      <div class="extra-content">
+        <p>
+          This year in particular, our Association’s attention has been drawn to several allegations, where fair treatment of our event seems to have been in short supply. 
+          The result has been that the hammer event has either not been included in club and league competitions at all, or has been withdrawn from meetings, 
+          on occasion at very short notice. In some cases, we are told, alternative venues have been available for our event, but despite being suggested, such venues have not been used.
+        </p>
+        <p>
+          Our Chairman, David Smith, who has extensive knowledge and experience of issues at venues, particularly but not solely relating to health and safety, 
+          has now produced set of support documents setting out some of the issues and offering suggestions and support to help overcome the challenges to our event. 
+          Much discussion has taken place between the Hammer Circle and England Athletics to achieve these, and one of the documents is in fact a fundamental England Athletics document. 
+          I should like to note our appreciation and gratitude to both David Smith and to Ed Hunt of England Athletics for their considerable efforts on behalf of the hammer throw event, 
+          as well as the consequent improvements in safety for all present when our event is taking place.
+        </p>
+        <p>
+          No-one can push back this unwelcome tide alone, but equally, individuals who love our sport must be prepared to challenge, using reason, integrity, courtesy, and knowledge. 
+          Here is  a link to the Issues and Actions Document which sets out some of the issues raised with The Hammer Circle and suggested actions you can take. 
+          This document will also be uploaded in the very near future to our website www.hammercircle.com .
+        </p>
+        <p>
+          This site will also carry the full set of papers produced by David Smith and England Athletics so as to provide you with an enormous amount of help in dealing with the 
+          challenges you face. May I say that this is a very complex matter and will require careful reading and consideration to enable you to take forward challenges to our event. 
+          Please take ample time to thoroughly read and consider the documents before contacting David Smith for support, which he has most generously offered.
+        </p>
+        <p>
+          I urge you to help The Hammer Circle rise to this challenge, as hammer throwers so often do so well in the face of all the obstacles we encounter.
+          Very best wishes for your success, whatever your role in our wonderful event!
+        </p>
+        <p>
+          Yours in Sport, <br> Alan Woods <br> President
+        </p>
+      </div>
+      <a href="javascript:void(0);" class="read-more" onclick="toggleContent()">Read More</a>
+      <a href="assets/pdf_docs/hammer-issues-related-facil.pdf" target="_blank" class="pdf-link">Download PDF</a>
       <div class="blog-footer">
         <p>Posted on March 1, 2024</p>
       </div>
@@ -74,5 +115,20 @@
   <footer>
     <p>&copy; 2024 Hammer Circle. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    function toggleContent() {
+      var content = document.querySelector('.extra-content');
+      var readMoreLink = document.querySelector('.read-more');
+      
+      if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+        readMoreLink.textContent = 'Read Less';
+      } else {
+        content.style.display = 'none';
+        readMoreLink.textContent = 'Read More';
+      }
+    }
+  </script>
 </body>
 </html>
