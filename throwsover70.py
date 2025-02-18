@@ -70,7 +70,7 @@ def get_athlete_performances_over_70m(athlete_id):
         print("No HT7.26K performances over 70m found.")
 
 # Run the function for the example athlete
-get_athlete_performances_over_70m("783760")
+get_athlete_performances_over_70m("29004")
 
 
 
