@@ -7,7 +7,7 @@ from itertools import product
 # Define the list of event, sex, year, and agegroup combinations as strings
 events = ["HT7.26K M", "HT4K W", "HT6K M", "HT4K W","HT5K M","HT4K M","HT3K W","HT3K W"]
 age_groups = ["ALL", "ALL", "U20", "U20","U17","U15", "U17","U15"]
-years = range(2024, 2009, -1)  # From 2024 to 2010
+years = range(2025, 2024, -1)  # From 2024 to 2010
 
 combinations = [f"{event} {year} {age}" for event, age in zip(events, age_groups) for year in years]
 

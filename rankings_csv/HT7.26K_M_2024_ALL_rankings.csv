@@ -115,7 +115,7 @@ Rank,Perf,Name,Year,Coach,Club,Venue,Date
 113,39.52,Rob C Smith,15,Tony Cook,Walton,Ewell,12 Jun 24
 114,39.42,George Ross,-7,,Inverness,Inverness,9 Jun 24
 115,39.32,Kevin Acraman,6,Paul Dickenson,Hillingdon,Lee Valley,12 May 24
-116,39.13,Matthew Page,-4,Matt Spicer,Yate,Swindon,12 Oct 24
+116,39.13,Matthew Page,-4,Bob Broadbridge,Yate,Swindon,12 Oct 24
 117,39.00,Tom Pearson,11,,Charnwood,Stoke,18 May 24
 118,38.98,Aaron Holliday,-4,John Little,Carlisle Aspatria,Carlisle,8 Sep 24
 119,38.79,Richard Woodhall,22,,Dudley & Stourbridge,Worcester,18 May 24
@@ -187,7 +187,7 @@ Rank,Perf,Name,Year,Coach,Club,Venue,Date
 185,32.13,Will Jump,-2,Mike Winch,Brighton & Hove,Oxford,18 May 24
 186,32.10,Iain Osborne,27,Ken Holmes,Team Bath,Yeovil,30 Mar 24
 187,32.09,Dafydd Herdman,4,Alyson Hourihan,Cardiff,Yeovil,7 Sep 24
-188,32.08,Brydon Duncan,-3,Alex Pope,Blackheath & Bromley,Birmingham,3 Aug 24
+188,32.08,Brydon Duncan,-3,Garry Power,Blackheath & Bromley,Birmingham,3 Aug 24
 189,32.06,Jordan Mitchell,8,Ted Grey,Sutton-in-Ashfield,Bedford,3 Aug 24
 190,31.95,Craig Rodwell,26,,Newark AC,Derby,11 May 24
 190,31.95,Lee Thornton,17,,Wolverhampton & Bilston,Nuneaton,18 Jul 24
@@ -212,7 +212,7 @@ Rank,Perf,Name,Year,Coach,Club,Venue,Date
 210,30.37,Mark Broughton,,,Police,Nuneaton,5 Jun 24
 211,30.34,Kevin Murch,44,,Rugby & Northampton,Birmingham (U),7 Sep 24
 212,30.32,Adam Richardson,24,,St. Mary's Richmond,Carshalton,17 Aug 24
-213,30.28,Matthew Broughan,8,,Unattached,Aldershot,5 Jun 24
+213,30.28,Matthew Broughan,8,,Army,Aldershot,5 Jun 24
 213,30.28,Blake Gates,-8,Richard Scoones,Swale Combined,Carshalton,17 Aug 24
 215,30.05,Zack Grinsted,-3,Geoff Capes,Luton,Nottingham,1 Jun 24
 215,30.05,Connor Bell,-1,,Spenborough,Cleckheaton,17 Aug 24
@@ -240,45 +240,44 @@ Rank,Perf,Name,Year,Coach,Club,Venue,Date
 238,28.62,Robert Simmonds,17,,Ryston,Hemel Hempstead,17 Aug 24
 239,28.60,Damian Crawford,34,,Lifford Strabane,Belfast,10 Aug 24
 240,28.57,Andrew Rushbrook,40,,Bexley,Ashford,11 May 24
-240,28.57,Marcis Lazdins,-6,,Windsor Slough Eton & Hounslow,Eton,18 May 24
 240,28.57,Chris Line,9,Ivan Washington,Dacorum,Hemel Hempstead,15 Sep 24
-243,28.38,Martin McBriar,27,,Winchester,Eltham,14 Jul 24
-244,28.34,Archie Kinneir,-7,Bob Broadbridge,Swindon,Portsmouth,18 May 24
-245,28.29,Dale Bullimore,23,,Great Yarmouth,Norwich,23 Jun 24
-246,28.07,Paul Cooper,26,William Bushnell,Colchester H,Chelmsford,18 May 24
-247,27.83,Graeme Ferguson,27,Donald Mcleod,Law,Derby,28 Jul 24
-248,27.82,Stuart Hart,20,,New Marske,Whitley Bay,14 Jul 24
-249,27.81,Roger Skedd,20,Geoff Tyler,Chelmsford,Horspath,26 May 24
-250,27.71,Josh Mouland,14,,Sale Harriers Manchester,Blackburn,18 May 24
-251,27.69,Vito Ricci,35,Sam Cater,Bromsgrove & Redditch,Worcester,18 May 24
-251,27.69,Albert Graham,3,,Leeds City,Derby,14 Jul 24
-253,27.60,Richard Nash,27,,Dartford H,Dartford,14 Jun 24
-254,27.55,Robert Allen,41,,Harrow,Eton,18 May 24
-255,27.53,Cieran Lomax,-5,,Tipton,Hereford,7 Sep 24
-256,27.46,Milan Snarskis,-8,,Stevenage & North Herts,St. Albans,14 Jul 24
-257,27.45,Tyler Selway,6,Christopher Hazell,Nuneaton,Kettering,18 May 24
-258,27.40,Mark Andrews,13,,Hercules Wimbledon,Kingston,6 Apr 24
-259,27.26,Trevor Tarbit,29,Barry Hawksworth,Derby,Doncaster,17 Aug 24
-260,27.25,Jamie Thomson,8,,"Blackpool, Wyre & Fylde",Preston,14 Jul 24
-261,27.24,Simon Hancock,-7,,South London,Crawley,14 Jul 24
-262,27.20,Fergus Harford,36,,Woodford Green Essex Ladies,Woodford,17 Aug 24
-263,27.11,Jae Wright,5,,Worcester,Stourport,14 Jul 24
-264,27.06,David Ralson,25,,Abingdon,Horspath,29 Apr 24
-265,26.98,Wayne Jones,32,,Rugby & Northampton,Rugby,17 Aug 24
-265,26.98,Christoper Kay D,11,,Leicester,Abingdon,7 Sep 24
-267,26.96,Hugh Williams,7,,Woodford Green Essex Ladies,Finsbury Park,18 May 24
-268,26.73,Frank Freeman,23,,Kidderminster & Stourport,Worcester,18 May 24
-269,26.71,Kevin Brown,38,,Shaftesbury Barnet,Abingdon,7 Sep 24
-270,26.67,Nick Foxworthy,19,,Exeter,Exeter,2 Jun 24
-271,26.63,Matt Rose,15,Stephen Garnham,Colchester H,Kings Lynn,15 Jun 24
-272,26.59,Jack Partridge,2,Glenys Morton,Leicester,Abingdon,7 Sep 24
-273,26.55,Joseph Hunt,10,Cathy James,Thurrock,Finsbury Park,18 May 24
-274,26.51,Chris Patterson,17,,Marlborough Athletics,Andover,14 Jul 24
-275,26.34,Dave Brown,37,,Liverpool Pembroke Sefton,Blackpool,12 May 24
-275,26.34,Cameron Hale,3,,Bournemouth,Andover,14 Jul 24
-277,26.31,Jasyn Savage,27,Greg Beard,Macclesfield,Sportcity,14 Jul 24
-278,26.16,Eddie McKenzie,36,,Aberdeen,Aberdeen,28 Jul 24
-279,26.14,Ian Cotton,32,,Skyrac,Cleckheaton,15 Jun 24
+242,28.38,Martin McBriar,27,,Winchester,Eltham,14 Jul 24
+243,28.34,Archie Kinneir,-7,Bob Broadbridge,Swindon,Portsmouth,18 May 24
+244,28.29,Dale Bullimore,23,,Great Yarmouth,Norwich,23 Jun 24
+245,28.07,Paul Cooper,26,William Bushnell,Colchester H,Chelmsford,18 May 24
+246,27.83,Graeme Ferguson,27,Donald Mcleod,Law,Derby,28 Jul 24
+247,27.82,Stuart Hart,20,,New Marske,Whitley Bay,14 Jul 24
+248,27.81,Roger Skedd,20,Geoff Tyler,Chelmsford,Horspath,26 May 24
+249,27.71,Josh Mouland,14,,Sale Harriers Manchester,Blackburn,18 May 24
+250,27.69,Vito Ricci,35,Sam Cater,Bromsgrove & Redditch,Worcester,18 May 24
+250,27.69,Albert Graham,3,,Leeds City,Derby,14 Jul 24
+252,27.60,Richard Nash,27,,Dartford H,Dartford,14 Jun 24
+253,27.55,Robert Allen,41,,Harrow,Eton,18 May 24
+254,27.53,Cieran Lomax,-5,,Tipton,Hereford,7 Sep 24
+255,27.46,Milan Snarskis,-8,,Stevenage & North Herts,St. Albans,14 Jul 24
+256,27.45,Tyler Selway,6,Christopher Hazell,Nuneaton,Kettering,18 May 24
+257,27.40,Mark Andrews,13,,Hercules Wimbledon,Kingston,6 Apr 24
+258,27.26,Trevor Tarbit,29,Barry Hawksworth,Derby,Doncaster,17 Aug 24
+259,27.25,Jamie Thomson,8,,"Blackpool, Wyre & Fylde",Preston,14 Jul 24
+260,27.24,Simon Hancock,-7,,South London,Crawley,14 Jul 24
+261,27.20,Fergus Harford,36,,Woodford Green Essex Ladies,Woodford,17 Aug 24
+262,27.11,Jae Wright,5,,Worcester,Stourport,14 Jul 24
+263,27.06,David Ralson,25,,Abingdon,Horspath,29 Apr 24
+264,26.98,Wayne Jones,32,,Rugby & Northampton,Rugby,17 Aug 24
+264,26.98,Christoper Kay D,11,,Leicester,Abingdon,7 Sep 24
+266,26.96,Hugh Williams,7,,Woodford Green Essex Ladies,Finsbury Park,18 May 24
+267,26.73,Frank Freeman,23,,Kidderminster & Stourport,Worcester,18 May 24
+268,26.71,Kevin Brown,38,,Shaftesbury Barnet,Abingdon,7 Sep 24
+269,26.67,Nick Foxworthy,19,,Exeter,Exeter,2 Jun 24
+270,26.63,Matt Rose,15,Stephen Garnham,Colchester H,Kings Lynn,15 Jun 24
+271,26.59,Jack Partridge,2,Glenys Morton,Leicester,Abingdon,7 Sep 24
+272,26.55,Joseph Hunt,10,Cathy James,Thurrock,Finsbury Park,18 May 24
+273,26.51,Chris Patterson,17,,Marlborough Athletics,Andover,14 Jul 24
+274,26.34,Dave Brown,37,,Liverpool Pembroke Sefton,Blackpool,12 May 24
+274,26.34,Cameron Hale,3,,Bournemouth,Andover,14 Jul 24
+276,26.31,Jasyn Savage,27,Greg Beard,Macclesfield,Sportcity,14 Jul 24
+277,26.16,Eddie McKenzie,36,,Aberdeen,Aberdeen,28 Jul 24
+278,26.14,Ian Cotton,32,,Skyrac,Cleckheaton,15 Jun 24
 ,50.63,Khalid Buhaimed,-4,,Loughborough Students,Sportcity,6 May 24
 ,49.33,Marcin Marchlewicz,18,,Dundee Hawkhill,Grangemouth,18 Aug 24
 ,48.76,Andrejs Virsics,18,Sally Eldridge,Leamington,Nuneaton,15 Jun 24
@@ -291,4 +290,5 @@ Rank,Perf,Name,Year,Coach,Club,Venue,Date
 ,32.77,Kevin Wilson,12,Geoff Tyler,Chelmsford,Gillingham,14 Jul 24
 ,32.51,Kerem Mumyakmaz,1,,Tonbridge,Tokyo JPN,1 Sep 24
 ,28.86,Jesse Schelfhout,3,,Oxford Uni,Oxford,18 May 24
+,28.57,Marcis Lazdins,-6,,Windsor Slough Eton & Hounslow,Eton,18 May 24
 ,26.05,Michael Dzandu,24,,Reading AC,Reading,6 Apr 24

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // List of available years
-    const availableYears = [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010];  // Adjust this list as necessary
+    const availableYears = [2025,2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010];  // Adjust this list as necessary
     let currentYearIndex = 0; // Start with 2024
 
     // Function to load the rankings for the selected year
