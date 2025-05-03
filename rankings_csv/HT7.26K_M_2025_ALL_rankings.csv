@@ -1,58 +1,74 @@
 Rank,Performance,Name,Year,Coach,Club,Venue,Date
 Rank,Perf,Name,Year,Coach,Club,Venue,Date
-1,76.03,Jake Norris,4,Paul Dickenson,Windsor Slough Eton & Hounslow,Eton,5 Apr 25
-2,72.96,Kenneth Ikeji,1,Paul Head,Basildon,Tucson AZ USA,4 Apr 25
+1,76.12,Jake Norris,4,Paul Dickenson,Windsor Slough Eton & Hounslow,Eton,19 Apr 25
+2,75.20,Kenneth Ikeji,1,Paul Head,Basildon,Walnut CA USA,19 Apr 25
 3,69.56,Jack Paget,6,John Pearson,Thames Valley,Durham NC USA,10 Apr 25
-4,66.27,Bayley Campbell,3,Paul Dickenson,Windsor Slough Eton & Hounslow,Eton,5 Apr 25
-5,66.13,Tom Parker,9,Amir Williamson,Blackheath & Bromley,Tucson AZ USA,4 Apr 25
-6,65.59,Craig Murch,10,Matt Spicer,Birchfield H,Loughborough,1 Mar 25
-7,64.59,Ruben Banks,2,Dennis Daly,Windsor Slough Eton & Hounslow,Tuscaloosa AL USA,11 Apr 25
-8,63.81,Alex Bernstein,1,Bob Welfare,Preston,Orlando FL. USA,21 Mar 25
-9,63.55,Owen Merrett,-2,Matt Spicer,Harrow,Loughborough,1 Mar 25
-10,63.42,Shaun Kerry,2,Dave Smith,Kingston upon Hull,Bury,26 Mar 25
-11,62.30,Edward Jeans,5,Bob Welfare,Preston,Blackpool,29 Mar 25
-12,61.59,Harry Ricketts,-2,Jake Norris,Swindon,Swindon,15 Feb 25
-13,60.53,Adam Phillips,2,,Cardiff,Des Maines IA USA,11 Apr 25
-14,60.11,Archie Small,-1,,Leamington,Bury,26 Mar 25
-15,59.90,Oliver Graham,2,Robert Earle,Chelmsford,Southend,13 Apr 25
-16,59.53,Kai Barham,-3,Paul Head,Dartford H,Berkeley CA USA,5 Apr 25
-17,56.39,Andrew Bowsher,2,Duncan Flockhart,Inverness,San Marcos TX USA,21 Mar 25
-18,56.31,Finley Hanham,-3,Bob Broadbridge,Newbury,Basingstoke,15 Mar 25
-19,54.71,Ross Douglas,7,Jim Edwards,Charnwood,Loughborough,13 Apr 25
-20,54.42,Matthew Heywood,-1,Michael Hitchon,Blackburn,Mount Olive NC USA,11 Apr 25
-21,52.82,Daniel Nixon,5,Nick Ridgeon,Gateshead,Doncaster,5 Apr 25
-22,52.15,Samuel Clifton,-1,Jeremy Clifton,Winchester,Birmingham (U),8 Mar 25
-23,48.81,Anthony Kent,3,Jim Kerrigan,Blackburn,Blackpool,29 Mar 25
-24,45.54,Joe Flitcroft,12,Lee Doyle,Trafford,Blackpool,29 Mar 25
-25,44.89,Oscar Bryce,6,Ian Cooley,Hallamshire,Loughborough,13 Apr 25
-26,44.85,Roger Bate,20,,Trafford,Mansfield,30 Mar 25
-27,44.54,Simon Evans,11,Matthew Evans,Worthing,Crawley,5 Apr 25
-28,44.11,Josh Tyler,1,Graham Moncur,Tavistock,Par,12 Apr 25
-29,43.67,Caleb Richardson,-3,Adrian Palmer,Cardiff,Telford,5 Apr 25
-30,42.00,Riley Hawkins,4,,Lincoln Wellington,Loughborough,13 Apr 25
-31,41.29,Matthew Page,-3,Bob Broadbridge,Yate,Lee Valley,8 Feb 25
-32,41.17,Matthew Evans,11,Simon Evans,Worthing,Crawley,5 Apr 25
-33,39.16,Tom Peters,6,Dennis Elkins,Bournemouth,Poole,5 Apr 25
-34,38.79,Marcus Barnes,13,,Army,Nathan AUS,16 Mar 25
-35,37.94,Phillip Jones,11,,Bingley,Doncaster,5 Apr 25
-36,37.60,Charlie Ashdown-Taylor,4,Andrew Hughes,Bracknell AC,Basingstoke,15 Mar 25
-37,37.22,Nathan Booth,3,,Sale Harriers Manchester,Mansfield,30 Mar 25
-38,36.99,Henry Collins,-2,,Crawley,Basingstoke,15 Mar 25
-39,36.67,Ryan Wells,-3,Alex Wells,Wycombe,Abingdon,6 Apr 25
-40,36.14,Alex Blake-Martin,1,,Radley,Sandy,22 Mar 25
-41,35.26,Matthew Broughan,9,,Army,Nathan AUS,16 Mar 25
-42,34.23,David Rose,-2,,Dundee Hawkhill,Crownpoint,15 Mar 25
-43,32.82,Liam Nolan T20/F20,8,Donald Mcleod,Law,Crownpoint,15 Mar 25
-44,32.56,Mark Ryan,23,Vanessa Hannam,Medway & Maidstone,Lee Valley,5 Apr 25
-45,31.55,Declan Manning T20/F20,11,Kevin Manning,City of Norwich,King's Lynn,23 Mar 25
-46,28.81,Shay Tarbit,-1,Barry Hawksworth,Derby,Doncaster,5 Apr 25
-47,28.63,Will Jump,-1,Mike Winch,Brighton & Hove,Lee Valley,8 Feb 25
-48,27.43,Fergus Harford,37,,Woodford Green Essex Ladies,Woodford Green,12 Apr 25
-49,27.31,Craig Challis,24,,Ayr Seaforth,Crownpoint,15 Mar 25
-50,26.73,Martin McBriar,28,,Winchester,Horspath,8 Mar 25
-51,26.67,Ron Todd,41,,Central,Kilmarnock,13 Apr 25
-,46.37,Marcin Marchlewicz,19,,Dundee Hawkhill,Crownpoint,15 Mar 25
+4,68.79,Taylor Campbell,7,John Pearson,Windsor Slough Eton & Hounslow,Eton,19 Apr 25
+5,68.40,Bayley Campbell,3,Paul Dickenson,Windsor Slough Eton & Hounslow,Eton,19 Apr 25
+6,66.47,Alex Bernstein,1,Bob Welfare,Preston,Terre Haute IN USA,19 Apr 25
+7,66.13,Tom Parker,9,Amir Williamson,Blackheath & Bromley,Tucson AZ USA,4 Apr 25
+8,66.12,Ruben Banks,2,Dennis Daly,Windsor Slough Eton & Hounslow,Auburn AL USA,26 Apr 25
+9,65.59,Craig Murch,10,Matt Spicer,Birchfield H,Loughborough,1 Mar 25
+10,64.64,Owen Merrett,-2,Matt Spicer,Harrow,Eton,19 Apr 25
+11,63.42,Shaun Kerry,2,Dave Smith,Kingston upon Hull,Bury,26 Mar 25
+12,62.67,Edward Jeans,5,Bob Welfare,Preston,Eton,19 Apr 25
+13,61.84,Kai Barham,-3,Paul Head,Dartford H,Walnut CA USA,19 Apr 25
+14,61.59,Harry Ricketts,-2,Jake Norris,Swindon,Swindon,15 Feb 25
+15,60.53,Adam Phillips,2,,Cardiff,Des Maines IA USA,11 Apr 25
+16,60.52,Thomas Head,7,Paul Head,Woodford Green Essex Ladies,Milton Keynes,19 Apr 25
+17,60.40,Archie Small,-1,,Leamington,Loughborough,19 Apr 25
+18,59.90,Oliver Graham,2,Robert Earle,Chelmsford,Southend,13 Apr 25
+19,56.95,Finley Hanham,-3,Bob Broadbridge,Newbury,Winchester,20 Apr 25
+20,56.39,Andrew Bowsher,2,Duncan Flockhart,Inverness,San Marcos TX USA,21 Mar 25
+21,54.71,Ross Douglas,7,Jim Edwards,Charnwood,Loughborough,13 Apr 25
+22,54.42,Matthew Heywood,-1,Michael Hitchon,Blackburn,Mount Olive NC USA,11 Apr 25
+23,54.19,Daniel Nixon,5,Nick Ridgeon,Gateshead,York,21 Apr 25
+24,53.40,Sam Mace,3,Paul Dickenson,Walton,Eton,19 Apr 25
+25,52.15,Samuel Clifton,-1,Jeremy Clifton,Winchester,Birmingham (U),8 Mar 25
+26,52.11,Leslie Parkes,7,Eric Davison,Winchester,Winchester,19 Apr 25
+27,48.95,James Ericsson-Nicholls,2,Jack Kee,Marshall Milton Keynes,Milton Keynes,19 Apr 25
+28,48.81,Anthony Kent,3,Jim Kerrigan,Blackburn,Blackpool,29 Mar 25
+29,48.56,Stuart Thurgood,27,,South West Vets,Eton,19 Apr 25
+30,45.68,Joe Flitcroft,12,Lee Doyle,Trafford,Leigh,20 Apr 25
+31,45.63,Oscar Bryce,6,Ian Cooley,Hallamshire,Leigh,20 Apr 25
+32,44.95,Luke Norris,11,Paul Dickenson,Windsor Slough Eton & Hounslow,Eton,19 Apr 25
+33,44.85,Roger Bate,20,,Trafford,Mansfield,30 Mar 25
+34,44.54,Simon Evans,11,Matthew Evans,Worthing,Crawley,5 Apr 25
+35,44.11,Josh Tyler,1,Graham Moncur,Tavistock,Par,12 Apr 25
+36,43.67,Caleb Richardson,-3,Adrian Palmer,Cardiff,Telford,5 Apr 25
+37,42.00,Riley Hawkins,4,,Lincoln Wellington,Loughborough,13 Apr 25
+38,41.29,Matthew Page,-3,Bob Broadbridge,Yate,Lee Valley,8 Feb 25
+39,41.17,Matthew Evans,11,Simon Evans,Worthing,Crawley,5 Apr 25
+40,39.51,James Hayward,-3,Glyndwr Pugh,Glasgow Jaguars,Aberdare,26 Apr 25
+41,39.16,Tom Peters,6,Dennis Elkins,Bournemouth,Poole,5 Apr 25
+42,38.79,Marcus Barnes,13,,Army,Nathan AUS,16 Mar 25
+43,38.36,Felix Vaughan,7,,Team Bath,Yeovil,19 Apr 25
+44,37.94,Phillip Jones,11,,Bingley,Doncaster,5 Apr 25
+45,37.61,Alexander Cotton,5,,Jersey,Jersey,3 Apr 25
+46,37.60,Charlie Ashdown-Taylor,4,Andrew Hughes,Bracknell AC,Basingstoke,15 Mar 25
+47,37.52,Lewis Shaw,-3,Thomas Graham,Kilbarchan,Aberdeen,23 Apr 25
+48,37.22,Nathan Booth,3,,Sale Harriers Manchester,Mansfield,30 Mar 25
+49,36.99,Henry Collins,-2,,Crawley,Basingstoke,15 Mar 25
+50,36.87,Rob C Smith,16,Tony Cook,Walton,Kingston,12 Apr 25
+51,36.67,Ryan Wells,-3,Alex Wells,Wycombe,Abingdon,6 Apr 25
+52,36.14,Alex Blake-Martin,1,,Radley,Sandy,22 Mar 25
+53,35.26,Matthew Broughan,9,,Army,Nathan AUS,16 Mar 25
+54,34.79,David Rose,-2,,Dundee Hawkhill,Aberdeen,23 Apr 25
+55,33.18,Liam Nolan T20/F20,8,Donald Mcleod,Law,Linwood,26 Apr 25
+56,32.56,Mark Ryan,23,Vanessa Hannam,Medway & Maidstone,Lee Valley,5 Apr 25
+57,32.43,Christopher Jack,21,John Little,Border,Carlisle,19 Apr 25
+58,32.24,Trevor Tarbit,30,Barry Hawksworth,Derby,Derby,15 Apr 25
+59,31.55,Declan Manning T20/F20,11,Kevin Manning,City of Norwich,King's Lynn,23 Mar 25
+60,30.39,Russell Race,12,,Hyndburn,Preston,12 Apr 25
+61,28.81,Shay Tarbit,-1,Barry Hawksworth,Derby,Doncaster,5 Apr 25
+62,28.63,Will Jump,-1,Mike Winch,Brighton & Hove,Lee Valley,8 Feb 25
+63,27.43,Fergus Harford,37,,Woodford Green Essex Ladies,Woodford Green,12 Apr 25
+64,27.31,Craig Challis,24,,Ayr Seaforth,Crownpoint,15 Mar 25
+65,26.73,Martin McBriar,28,,Winchester,Horspath,8 Mar 25
+66,26.67,Ron Todd,41,,Central,Kilmarnock,13 Apr 25
+,58.37,Jevan Parara,1,,Thames Valley,Baton Rouge LA USA,26 Apr 25
+,47.99,Marcin Marchlewicz,19,,Dundee Hawkhill,Linwood,26 Apr 25
 ,35.92,Tobias Plank,,,Cambridge Uni,Lee Valley,8 Feb 25
-,33.20,Panteleimon Vidalis,11,James Taylor,Rotherham,Sheffield,29 Mar 25
+,34.63,Panteleimon Vidalis,11,James Taylor,Rotherham,York,21 Apr 25
 ,27.11,Jesse Schelfhout,4,,Oxford Uni,Lee Valley,8 Feb 25
 ,26.22,Mantas Gudelis,2,,Cambridge Uni,Lee Valley,8 Feb 25
