@@ -121,100 +121,100 @@ footer {
 
 /* Style the table */
 #rankingsTable {
-width: 100%;
-border-collapse: collapse; /* Ensures borders are combined */
-margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders are combined */
+  margin-top: 20px;
 }
 
 /* Style the table headers */
 #rankingsTable th {
-border: 1px solid #000; /* Add border to table headers */
-padding: 10px;
-background-color: #f4f4f4; /* Light background color for headers */
-text-align: left; /* Align text to the left in headers */
+  border: 1px solid #000; /* Add border to table headers */
+  padding: 10px;
+  background-color: #f4f4f4; /* Light background color for headers */
+  text-align: left; /* Align text to the left in headers */
 }
 
 /* Style the table cells */
 #rankingsTable td {
-border: 1px solid #000; /* Add border to table data cells */
-padding: 8px;
-text-align: left; /* Align text to the left in cells */
-white-space: normal; /* Allow text to wrap */
-word-wrap: break-word; /* Break long words if necessary */
+  border: 1px solid #000; /* Add border to table data cells */
+  padding: 8px;
+  text-align: left; /* Align text to the left in cells */
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word; /* Break long words if necessary */
 }
 
 /* Optional: Style the rows to make them alternate colors for better readability */
 #rankingsTable tr:nth-child(even) {
-background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 #rankingsTable tr:nth-child(odd) {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /* Adjust container for multiple tables */
 .table-container {
-display: flex;
-justify-content: space-between;
-margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .table-column {
-width: 48%; /* Adjust this value to your preference */
+  width: 48%; /* Adjust this value to your preference */
 }
 
 /* Ensure that both tables have equal row heights */
 .rankings-table {
-width: 100%;
-border-collapse: collapse;
-margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
 }
 
 /* Apply fixed height of 3 lines to each row */
 .rankings-table tr {
-height: 100px; /* Adjust this based on your font size and line height */
+  height: 100px; /* Adjust this based on your font size and line height */
 }
 
 .rankings-table th,
 .rankings-table td {
-padding: 8px 12px;
-text-align: left;
-border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #ddd;
 }
 
 /* Prevent content wrapping */
 .rankings-table td, .rankings-table th {
-white-space: normal;
-word-wrap: break-word;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 /* Apply the fixed height to all rows */
 .rankings-table td {
-min-height: 72px; /* Minimum height to ensure the row is tall enough */
-vertical-align: top; /* Align content at the top of the cell */
+  min-height: 72px; /* Minimum height to ensure the row is tall enough */
+  vertical-align: top; /* Align content at the top of the cell */
 }
 
 .rankings-table th {
-background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .rankings-table tr:nth-child(even) {
-background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .rankings-table tr:hover {
-background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 /* Add container to display tables side by side */
 .rankings-container {
-display: flex;
-justify-content: space-between;
-gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .rankings-container .rankings-table {
-width: 48%; /* You can adjust this if needed */
+  width: 48%; /* You can adjust this if needed */
 }
 
 
@@ -273,9 +273,6 @@ width: 48%; /* You can adjust this if needed */
 #current-year {
   display: none;  /* Hides the element completely (it won't take up space) */
 }
-
-
-
 
 
 /* Blog Post Styles */
@@ -343,4 +340,19 @@ main {
 .blog-header h3 {
   font-size: 1.5em;
   margin: 0;
+}
+
+/* New styles for registration form */
+iframe {
+  border: none;
+  width: 100%;
+  height: 723px; /* Adjust based on form height */
+  margin-top: 20px;
+}
+
+/* Additional styling for the reunion details */
+main h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
 }
