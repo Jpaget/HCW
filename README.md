@@ -20,3 +20,8 @@ Set up a GitHub Actions workflow to run the script on a schedule.
 Commit and push changes to your repository to update the CSVs.
 
 
+
+    <h2>English Schools Under 15 Hammer</h2>
+    <p>The Hammer Circle has been successful in influencing the ESAA to include the U15 Girls Hammer in the 2014 English Schools Athletic Association programme. The change was tabled by <strong>Lesley Eldridge</strong> from Humberside County Schools and supported by many of the other county school associations.</p>
+    <p>This is a great success, and well done to Di and Paul for chasing the proposal from Chris Howe. Unfortunately, <strong>Stephanie Howe</strong> will be too old to benefit from this change.</p>
+    
