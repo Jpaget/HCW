@@ -11,6 +11,7 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 20px;
+      table-layout: fixed;  /* Ensures table respects fixed column widths */
     }
 
     /* Apply padding, text alignment, and border to all table cells */
@@ -41,116 +42,158 @@
       text-decoration: underline;
     }
 
-    /* Apply table layout to ensure width respects the set values */
-    #reunionTable {
-      table-layout: fixed;  /* Make sure the table respects fixed widths */
-    }
-
     /* Set specific width for each column */
     #reunionTable th:nth-child(1), #reunionTable td:nth-child(1) {
-      width: 20%;  /* Adjust as needed */
+      width: 15%;  /* Year column */
     }
 
     #reunionTable th:nth-child(2), #reunionTable td:nth-child(2) {
-      width: 40%;  /* Adjust as needed */
+      width: 25%;  /* Season Report column */
     }
 
     #reunionTable th:nth-child(3), #reunionTable td:nth-child(3) {
-      width: 40%;  /* Adjust as needed */
+      width: 25%;  /* Reunion Report column */
+    }
+
+    #reunionTable th:nth-child(4), #reunionTable td:nth-child(4) {
+      width: 35%;  /* Reunion Results column */
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Past Reunions</h1>
+    <h1>Past Reunions and Reports</h1>
   </header>
   <nav>  
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <a href="about.html" onclick="toggleDropdown(event)">About</a>
-          <ul class="dropdown-menu">
-            <li><a href="history.html">History</a></li>
-            <li><a href="presidents.html">Presidents, Vice & Honorary</a></li>
-            <li><a href="awards.html">Awards</a></li>
-            <li><a href="constitution.html">Constitution</a></li>
-            <li><a href="how-to-join.html">How to Join</a></li>
-          </ul>
-        </li>
-        <li><a href="news.html">News</a></li>
-        <li class="dropdown">
-          <a href="#" onclick="toggleDropdown(event)">Events</a>
-          <ul class="dropdown-menu">
-            <li><a href="reunion.html">Reunion 2025</a></li>
-            <li><a href="prev_reunions.html">Past Reunions</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="Sen_rank.html" onclick="toggleDropdown(event)">Rankings</a>
-          <ul class="dropdown-menu">
-            <li><a href="Sen_rank.html">Senior</a></li>
-            <li><a href="U20_rank.html">Under 20</a></li>
-            <li><a href="U17_rank.html">Under 17</a></li>
-            <li><a href="U15_rank.html">Under 15</a></li>
-          </ul>
-        </li>
-        <li><a href="help.html">Help and advice</a></li>
-      </ul>
-    </div>
-  </nav>
+
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="about.html" onclick="toggleDropdown(event)">About</a>
+        <ul class="dropdown-menu">
+          <li><a href="history.html">History</a></li>
+          <li><a href="presidents.html">Presidents, Vice & Honorary</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="constitution.html">Constitution</a></li>
+          <li><a href="how-to-join.html">How to Join</a></li>
+        </ul>
+      </li>
+      <li><a href="news.html">News</a></li>
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown(event)">Events</a>
+        <ul class="dropdown-menu">
+          <li><a href="reunion.html">Reunion 2025</a></li>
+          <li><a href="prev_reunions.html">Archive</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="Sen_rank.html" onclick="toggleDropdown(event)">Rankings</a>
+        <ul class="dropdown-menu">
+          <li><a href="Sen_rank.html">Senior</a></li>
+          <li><a href="U20_rank.html">Under 20</a></li>
+          <li><a href="U17_rank.html">Under 17</a></li>
+          <li><a href="U15_rank.html">Under 15</a></li>
+        </ul>
+      </li>
+      <li><a href="help.html">Help and advice</a></li>
+    </ul>
+  </div>
+</nav>
 
   <main>
-    <h2>Past Reunion Reports</h2>
-<!-- Table for Reunion Reports and Results -->
-<table id="reunionTable">
-  <thead>
-    <tr>
-      <th>Year</th>
-      <th>Report</th>
-      <th>Results</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2018</td>
-      <td><a href="assets\pdf_docs\prev_reunions\hc-reunion-2018-results.pdf" download>Report</a></td>
-      <td><a href="assets\pdf_docs\prev_reunions\2018-hammer-circle-reunion.pdf" download>Results</a></td>
-    </tr>
-    <tr>
-      <td>2017</td>
-      <td><a href="assets\pdf_docs\prev_reunions\the-2017-annual-reunion.pdf" download>Report</a></td>
-      <td><a href="assets\pdf_docs\prev_reunions\2017-hammer-circle-reunion.pdf" download>Results</a></td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td><a href="pdfs/reunion_report_2023.pdf" download>Report</a></td>
-      <td><a href="pdfs/reunion_results_2023.pdf" download>Results</a></td>
-    </tr>
-    <tr>
-      <td>2015</td>
-      <td><a href="assets\pdf_docs\prev_reunions\2015-presentations-final.pdf" download>Report</a></td>
-      <td><a href="pdfs/reunion_results_2023.pdf" download>Results</a></td>
-    </tr>
-    <tr>
-      <td>2014</td>
-      <td><a href="pdfs/reunion_report_2023.pdf" download>Report</a></td>
-      <td><a href="assets\pdf_docs\prev_reunions\2014results.pdf" download>Results</a></td>
-    </tr>
-    <tr>
-      <td>2013</td>
-      <td><a href="assets\pdf_docs\prev_reunions\reunion-report-2013.pdf" download>Report</a></td>
-      <td><a href="pdfs/reunion_results_2023.pdf" download>Results</a></td>
-    </tr>
-    <tr>
-      <td>2012</td>
-      <td><a href="pdfs/reunion_report_2023.pdf" download>Report</a></td>
-      <td><a href="assets\pdf_docs\prev_reunions\60th-reunion-results.pdf" download>Results</a></td>
-    </tr>
-    <!-- Add more rows here for additional years -->
-  </tbody>
-</table>
-
+    <!-- Table for Reunion Reports and Results -->
+    <table id="reunionTable">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Season Report</th>
+          <th>Reunion Report</th>
+          <th>Reunion Results</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2021</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td><a href="assets/pdf_docs/prev_reunions/hc-reunion-2018-results.pdf" download>Report</a></td>
+          <td><a href="assets/pdf_docs/prev_reunions/2018-hammer-circle-reunion.pdf" download>Results</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td><a href="assets/pdf_docs/prev_reunions/the-2017-annual-reunion.pdf" download>Report</a></td>
+          <td><a href="assets/pdf_docs/prev_reunions/2017-hammer-circle-reunion.pdf" download>Results</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td><a href="assets/pdf_docs/prev_reunions/2015-presentations-final.pdf" download>Report</a></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td></td>
+          <td><a href="assets/pdf_docs/prev_reunions/2014results.pdf" download>Results</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td><a href="assets/pdf_docs/prev_reunions/reunion-report-2013.pdf" download>Report</a></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td></td>
+          <td><a href="assets/pdf_docs/prev_reunions/60th-reunion-results.pdf" download>Results</a></td>
+          <td></td>
+        </tr>
+        <!-- Add more rows here for additional years -->
+      </tbody>
+    </table>
   </main>
 
   <footer>
