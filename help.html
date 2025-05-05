@@ -97,5 +97,14 @@
   <footer>
     <p>&copy; 2024 Hammer Circle. All Rights Reserved.</p>
   </footer>
+<script>
+    function toggleDropdown(event) {
+      const dropdown = event.target.closest('.dropdown');
+      if (window.innerWidth <= 768) {
+        event.preventDefault();
+        dropdown.classList.toggle('open');
+      }
+    }
+  </script>
 </body>
 </html>
