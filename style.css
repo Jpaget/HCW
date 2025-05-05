@@ -358,59 +358,50 @@ main h2 {
 }
 
 
-/* Mobile Menu Toggle Button */
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 1001;
-  cursor: pointer;
-}
 
-/* Hide the checkbox */
+
+
 #menu-toggle {
-  display: none;
+  display: none !important;
 }
 
-/* Mobile menu layout */
 @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
+  nav .menu {
     display: none;
+    flex-direction: column;
     background: black;
     width: 100%;
-    padding: 0;
+  }
+
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+  }
+  
+
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    flex-direction: column;
   }
 
   nav ul li {
     text-align: center;
   }
 
-  #menu-toggle:checked + .menu-toggle + ul {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .dropdown-menu {
-    position: static;
-    background: #111;
-    display: none;
+  .dropdown:hover .dropdown-menu {
+    display: none; /* Disable hover-based dropdown on mobile */
   }
 
   .dropdown.open .dropdown-menu {
     display: block;
   }
-
-  .dropdown > a::after {
-    content: " ▼";
-    font-size: 0.8em;
-  }
 }
+
+
+

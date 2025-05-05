@@ -32,10 +32,13 @@
   <header>
     <h1>President's Plate</h1>
   </header>
-  <nav>    <ul>
+  <nav>  
+
+  <div class="menu">
+    <ul>
       <li><a href="index.html">Home</a></li>
       <li class="dropdown">
-        <a href="about.html">About</a>
+        <a href="about.html" onclick="toggleDropdown(event)">About</a>
         <ul class="dropdown-menu">
           <li><a href="history.html">History</a></li>
           <li><a href="presidents.html">Presidents, Vice & Honorary</a></li>
@@ -46,13 +49,14 @@
       </li>
       <li><a href="news.html">News</a></li>
       <li class="dropdown">
-        <a>Events</a>
+        <a href="#" onclick="toggleDropdown(event)">Events</a>
         <ul class="dropdown-menu">
           <li><a href="reunion.html">Reunion 2025</a></li>
+          <li><a href="prev_reunions.html">Past Reunions</a></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a href="Sen_rank.html">Rankings</a>
+        <a href="Sen_rank.html" onclick="toggleDropdown(event)">Rankings</a>
         <ul class="dropdown-menu">
           <li><a href="Sen_rank.html">Senior</a></li>
           <li><a href="U20_rank.html">Under 20</a></li>
@@ -62,7 +66,8 @@
       </li>
       <li><a href="help.html">Help and advice</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
   <main>
     <h2>Presentation of the President's Plate</h2>
     <p>The President’s Plate is held by the serving President. 
