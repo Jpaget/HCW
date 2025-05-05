@@ -356,3 +356,61 @@ main h2 {
   margin-bottom: 20px;
   color: #333;
 }
+
+
+/* Mobile Menu Toggle Button */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+/* Hide the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Mobile menu layout */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    display: none;
+    background: black;
+    width: 100%;
+    padding: 0;
+  }
+
+  nav ul li {
+    text-align: center;
+  }
+
+  #menu-toggle:checked + .menu-toggle + ul {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background: #111;
+    display: none;
+  }
+
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown > a::after {
+    content: " ▼";
+    font-size: 0.8em;
+  }
+}
