@@ -1,74 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hammer Circle</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Inline CSS needed for photo gallery display */
+    #topPhotoGrid, #photoGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      margin-top: 1em;
+    }
+    .photo-container {
+      overflow: hidden;
+      border: 2px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      background: #f8f8f8;
+      transition: transform 0.3s ease;
+    }
+    .photo-container:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .photo-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  </style>
 </head>
 <body>
   <header>
     <div class="header-content">
-      <img src="assets/logo.png" alt="Hammer Circle Logo" class="logo">
+      <img src="assets/logo.png" alt="Hammer Circle Logo" class="logo" />
       <div class="header-text">
         <h1>The Hammer Circle</h1>
         <p>The Association of British Hammer Throwers established 1952</p>
       </div>
     </div>
   </header>
-  <nav>  
+  <nav>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html" onclick="toggleDropdown(event)">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="history.html">History</a></li>
+            <li><a href="presidents.html">Presidents, Vice & Honorary</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="constitution.html">Constitution</a></li>
+            <li><a href="how-to-join.html">How to Join</a></li>
+          </ul>
+        </li>
+        <li><a href="news.html">News</a></li>
+        <li class="dropdown">
+          <a href="reunion.html" onclick="toggleDropdown(event)">Events</a>
+          <ul class="dropdown-menu">
+            <li><a href="reunion.html">Reunion 2025</a></li>
+            <li><a href="prev_reunions.html">Archive</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="Sen_rank.html" onclick="toggleDropdown(event)">Rankings</a>
+          <ul class="dropdown-menu">
+            <li><a href="Sen_rank.html">Senior</a></li>
+            <li><a href="U20_rank.html">Under 20</a></li>
+            <li><a href="U17_rank.html">Under 17</a></li>
+            <li><a href="U15_rank.html">Under 15</a></li>
+          </ul>
+        </li>
+        <li><a href="help.html">Help and advice</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="about.html" onclick="toggleDropdown(event)">About</a>
-        <ul class="dropdown-menu">
-          <li><a href="history.html">History</a></li>
-          <li><a href="presidents.html">Presidents, Vice & Honorary</a></li>
-          <li><a href="awards.html">Awards</a></li>
-          <li><a href="constitution.html">Constitution</a></li>
-          <li><a href="how-to-join.html">How to Join</a></li>
-        </ul>
-      </li>
-      <li><a href="news.html">News</a></li>
-      <li class="dropdown">
-        <a href="reunion.html" onclick="toggleDropdown(event)">Events</a>
-        <ul class="dropdown-menu">
-          <li><a href="reunion.html">Reunion 2025</a></li>
-          <li><a href="prev_reunions.html">Archive</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="Sen_rank.html" onclick="toggleDropdown(event)">Rankings</a>
-        <ul class="dropdown-menu">
-          <li><a href="Sen_rank.html">Senior</a></li>
-          <li><a href="U20_rank.html">Under 20</a></li>
-          <li><a href="U17_rank.html">Under 17</a></li>
-          <li><a href="U15_rank.html">Under 15</a></li>
-        </ul>
-      </li>
-      <li><a href="help.html">Help and advice</a></li>
-    </ul>
-  </div>
-</nav>
-      
   <main>
+    <!-- New gallery above welcome -->
+    <section id="top-photo-gallery">
+      <div class="photo-grid" id="topPhotoGrid">
+        <!-- Top 4 photos injected here -->
+      </div>
+    </section>
+
     <section id="intro">
-      <h2><a>Welcome</a></h2>
+      <!-- <h2><a>Welcome</a></h2> -->
       <p>
-        Welcome to the Hammer Circle – the home of hammer throwing and the longest existing specialist event club in the UK. 
-        Founded in 1952, the Hammer Circle is a community of athletes, coaches, and supporters dedicated to the development and promotion of the hammer throw. 
-        Whether you're an experienced thrower, a newcomer to the sport, or simply passionate about athletics, 
-        the Hammer Circle offers a wealth of resources, events, and support to help you grow and connect with others. 
+        Welcome to the Hammer Circle – the home of hammer throwing and the longest existing specialist event club in the UK.
+        Founded in 1952, the Hammer Circle is a community of athletes, coaches, and supporters dedicated to the development and promotion of the hammer throw.
+        Whether you're an experienced thrower, a newcomer to the sport, or simply passionate about athletics,
+        the Hammer Circle offers a wealth of resources, events, and support to help you grow and connect with others.
         Join us in celebrating one of track and field’s most technical and powerful disciplines.
-        </p>
+      </p>
+    </section>
+
+    <section id="photo-gallery">
+      <!-- <h2>Gallery</h2> -->
+      <div class="photo-grid" id="photoGrid">
+        <!-- Bottom 4 photos injected here -->
+      </div>
     </section>
   </main>
   <footer>
     <p>&copy; 2024 Hammer Circle. All Rights Reserved.</p>
   </footer>
-<script>
+
+  <script>
     function toggleDropdown(event) {
       const dropdown = event.target.closest('.dropdown');
       if (window.innerWidth <= 768) {
@@ -76,6 +119,56 @@
         dropdown.classList.toggle('open');
       }
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const totalPhotos = 16; // Total photos available
+      const photoFolder = 'assets/gallery/';
+      const photoList = [];
+
+      // Generate photo filenames
+      for (let i = 1; i <= totalPhotos; i++) {
+        photoList.push(`photo${i}.jpg`);
+      }
+
+      // Shuffle array utility
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      const shuffledPhotos = shuffle(photoList).slice(0, 8); // Pick 8 unique photos
+
+      // First 4 above welcome
+      const topGallery = document.getElementById('topPhotoGrid');
+      shuffledPhotos.slice(0, 4).forEach(photo => {
+        const container = document.createElement('div');
+        container.classList.add('photo-container');
+
+        const img = document.createElement('img');
+        img.src = `${photoFolder}${photo}`;
+        img.alt = 'Gallery Photo';
+
+        container.appendChild(img);
+        topGallery.appendChild(container);
+      });
+
+      // Next 4 below welcome
+      const bottomGallery = document.getElementById('photoGrid');
+      shuffledPhotos.slice(4, 8).forEach(photo => {
+        const container = document.createElement('div');
+        container.classList.add('photo-container');
+
+        const img = document.createElement('img');
+        img.src = `${photoFolder}${photo}`;
+        img.alt = 'Gallery Photo';
+
+        container.appendChild(img);
+        bottomGallery.appendChild(container);
+      });
+    });
   </script>
 </body>
 </html>
