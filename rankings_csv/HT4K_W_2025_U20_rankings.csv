@@ -1,79 +1,87 @@
 Rank,Performance,Name,Year,Coach,Club,Venue,Date
 Rank,Perf,Name,Year,Coach,Club,Venue,Date
-1,53.01,Alice Howie,1,Matthew Evans,Worthing,Crawley,11 May 25
-2,50.88,Kaitlyn Waddell,2,David Thomas,Blyth,Carlisle,19 Apr 25
-3,49.94,Ella McIntosh,1,Dave Smith,Kingston upon Hull,Cudworth,10 May 25
-4,48.28,Phoebe Milburn,2,Elaine Fileman,Tavistock,Loughborough,1 Mar 25
-5,46.94,Aida Zukauskaite,2,,Lagan Valley,Belfast,17 May 25
-6,46.12,Willow Bedding,3,Paul Head,Huntingdonshire,Loughborough,1 Mar 25
-7,46.10,Hope Still,2,Paul Head,Dartford H,Southend,13 Apr 25
-8,43.91,Winter Stobart,1,Martin McBriar,Winchester,Woking,25 May 25
-9,43.01,Kara Stoll,1,David McKay,West Cheshire,Leigh,20 Apr 25
-10,42.62,Evelyn Bosoko,1,,Croydon,Kingston,11 May 25
-11,42.32,Eloise MacDonald,2,Bob Broadbridge,Andover,Portsmouth,10 May 25
-12,42.12,Nancy Akyol,2,Margaret Nicholls,Ipswich,Bury St. Edmunds,11 May 25
-13,42.11,Clemmie Harris,2,Paul Dickenson,Windsor Slough Eton & Hounslow,Eton,19 Apr 25
-14,42.01,Louisa Hess,2,Elaine Fileman,Tavistock,Birmingham (U),8 Mar 25
-15,41.83,Rhiana Drew,2,,Harlow AC,Chelmsford,10 May 25
-16,41.74,Lilymae Coote,1,Megan Thomas,Great Yarmouth,Norwich,10 May 25
-17,41.67,Laureen Okoghenu,1,,Victoria Park & Tower Hamlets,Lee Valley,11 May 25
-18,41.65,Amelia Hancock,3,Steve Pearson,Wolverhampton & Bilston,Tipton,25 May 25
-19,41.11,Kiri Shaw,2,John Moreland,City of York,York,31 May 25
-20,41.09,Ella Patterson,2,Elaine Fileman,Tavistock,Yeovil,10 May 25
-21,40.85,Ella Paterson,3,,Mendip,Yeovil,14 Jun 25
-22,40.51,Amelia Lawton,2,Timothy Williams,Thanet AC,Canterbury,19 May 25
-23,40.43,Sapphire Houston-Ball,3,,Blackheath & Bromley,Basingstoke,17 May 25
-24,39.44,Jessica Higgins,1,Jessica Arnison,Leigh,Leigh,17 May 25
-25,39.29,Ffion Mabey,2,Peter Roberts,Carmarthen,Aberdare,17 May 25
-26,38.88,Hannah Clemo,3,Steve Clemo,Newquay & Par,Par,10 May 25
-27,38.73,Eve Mengham,1,,Havant,Portsmouth,14 Jun 25
-28,38.03,Penelope Thornton,1,Marjolein Templeton,Retford,Mansfield,25 May 25
-29,37.84,Georgina Neilson,1,Matthew Sutton,Wolverhampton & Bilston,Stoke,27 Apr 25
-30,37.19,Rebekah Pratt,3,David Dix,Swansea,Swansea,10 May 25
-31,37.07,Alicia Mae Howard,2,,Thetford,Cambridge,27 Apr 25
-32,36.39,Freya Davey,1,Jamie Bath,Braintree,Hendon,29 Mar 25
-33,36.29,Georgia Turner,2,David Thomas,Blyth,Shildon,17 May 25
-34,35.36,Harley Keith,2,,Aberdeen,Aberdeen,7 May 25
-35,35.04,Elise Beardsworth,1,Sebastian Wadlow,Dacorum,Milton Keynes,18 May 25
-36,34.98,Jemima Hargreaves,2,Andrew Hughes,Bracknell AC,Basingstoke,15 Mar 25
-37,34.82,Vienos Abdullah,1,Matthew Sutton,Wolverhampton & Bilston,Tipton,25 May 25
-38,34.71,Alice Tyrer,1,,Skyrac,York,22 May 25
-39,34.40,Savana Krunity-Salako,1,,Team Bath,Yeovil,19 Apr 25
-40,34.28,Khelya Ekwe,2,Paul Weston,Croydon,Woodford Green,27 Apr 25
-41,34.02,Millie Egerton,1,Lee Doyle,Macclesfield,Ellesmere Port,10 May 25
-42,33.76,Hayley Dimond,3,Claire Dimond,Rugby & Northampton,Birmingham,27 Apr 25
-43,33.33,Sophie Wardle,1,,Andover,Horspath,17 May 25
-44,32.85,Sophie Dillon,1,,Harrogate,Leeds,27 Apr 25
-45,32.33,Erin McBriar,2,Martin McBriar,Winchester,Winchester,27 Apr 25
-46,32.25,Hannah Carruthers,2,,Lancaster & Morecambe,Lancaster,18 May 25
-47,31.86,Katie Southworth,1,,Leigh,Blackburn,27 Apr 25
-48,31.69,Eva Murray,1,Craig Pounder,City of York,Leeds (B),27 Apr 25
-49,31.64,Jasmine Richards,1,Sandra Woodman,Yate,Yate,18 May 25
-50,31.50,Skyla Turbard,1,,Cheltenham,Gloucester,11 May 25
-51,31.22,Hollie Stitt,1,,North Down,Tullamore IRL,31 May 25
-52,30.99,Lacee Webb,1,,Blackheath & Bromley,Ashford,11 May 25
-53,30.65,Ash Hillier-Smith,1,Sam Hillier-Smith,Yate,Yate,11 May 25
-54,30.31,Eleanor Peters,1,,Wirral,Liverpool,11 May 25
-55,29.74,Mairead Mcgrath,1,Jamie Bath,Shaftesbury Barnet,Lee Valley,11 May 25
-56,29.66,Jasmin Musgrove F20/T20,2,,Crawley,Poole,17 May 25
-57,29.64,Billie Kennedy,1,,Derby,Derby,15 Apr 25
-58,29.54,Eve Muirhead,1,,Leeds City,Cudworth,10 May 25
-59,28.83,Caitlan Burke,3,,Huntingdonshire,Cambridge,27 Apr 25
-60,28.79,Abigail Foster,1,Leonard Miller,Border,Leigh,25 May 25
-61,28.47,Sky Lewis,2,,Elswick,Shildon,17 May 25
-62,28.01,Efa Williams,1,,Swansea,Cardiff,25 May 25
-63,27.76,Zoe Arrenberg,1,,Cheltenham,Gloucester,5 May 25
-64,27.75,Morgane Argivier,1,,Swale Combined,Ashford,11 May 25
-65,26.83,Megan Brown,2,,Deeside AAC,Connah's Quay,25 May 25
-66,26.76,Katelyn Milburn,1,Clive Thomson,Tavistock,Exeter,27 Apr 25
-67,26.70,Emilia Wazydrag,1,,Woking,Woking,25 May 25
-68,26.51,Beth Palmer,1,Bob Broadbridge,Newbury,Poole,17 May 25
-69,26.26,Abigail Barr,2,,Ballymena & Antrim,Belfast,17 May 25
-70,26.20,Anna McArdle,2,,Rothwell,Cudworth,10 May 25
-71,25.39,Alicia Burman,1,,Ipswich,Finsbury Park,17 May 25
-72,25.37,Safiya Williams,1,Paul Filer,Yate,Yeovil,19 Apr 25
-73,24.97,Adora Sotannde,1,,Edinburgh AC,Kilmarnock,13 Apr 25
-74,24.80,Cherie Ufuoma,1,Les Hall,Bolton,York,31 May 25
-75,24.64,Mariah Marshall,2,Tom Cochrane,Bournemouth,Poole,11 May 25
-76,24.24,Olivia Myers,1,Dominic Waring,Spenborough,Doncaster,17 May 25
-77,23.13,Muna Mokah,1,,Huntingdonshire,Peterborough,10 May 25
+1,53.96,Alice Howie,1,Matthew Evans,Worthing,Birmingham,12 Jul 25
+2,51.46,Kaitlyn Waddell,2,David Thomas,Blyth,Birmingham,12 Jul 25
+3,50.84,Ella McIntosh,1,Dave Smith,Kingston upon Hull,Birmingham,12 Jul 25
+4,48.92,Aida Zukauskaite,2,,Lagan Valley,Belfast,15 Jun 25
+5,48.28,Phoebe Milburn,2,Elaine Fileman,Tavistock,Loughborough,1 Mar 25
+6,46.92,Willow Bedding,3,Paul Head,Huntingdonshire,Chelmsford,29 Jun 25
+7,46.89,Kara Stoll,1,David McKay,West Cheshire,Birmingham,12 Jul 25
+8,46.10,Hope Still,2,Paul Head,Dartford H,Southend,13 Apr 25
+9,44.93,Laureen Okoghenu,1,,Victoria Park & Tower Hamlets,Chelmsford,29 Jun 25
+10,43.91,Winter Stobart,1,Martin McBriar,Winchester,Woking,25 May 25
+11,43.73,Nancy Akyol,2,Margaret Nicholls,Ipswich,Birmingham,12 Jul 25
+12,43.63,Clemmie Harris,2,Paul Dickenson,Windsor Slough Eton & Hounslow,Birmingham,12 Jul 25
+13,43.20,Evelyn Bosoko,1,,Croydon,Gillingham,6 Jul 25
+14,42.79,Kiri Shaw,2,John Moreland,City of York,York,14 Jun 25
+15,42.71,Lilymae Coote,1,Megan Thomas,Great Yarmouth,Norwich,14 Jun 25
+16,42.37,Amelia Lawton,2,Timothy Williams,Thanet AC,Lewes,22 Jun 25
+17,42.32,Eloise MacDonald,2,Bob Broadbridge,Andover,Portsmouth,10 May 25
+18,42.01,Louisa Hess,2,Elaine Fileman,Tavistock,Birmingham (U),8 Mar 25
+19,41.83,Rhiana Drew,2,,Harlow AC,Chelmsford,10 May 25
+20,41.73,Jessica Higgins,1,Jessica Arnison,Leigh,Derby,29 Jun 25
+21,41.65,Amelia Hancock,3,Steve Pearson,Wolverhampton & Bilston,Tipton,25 May 25
+22,41.09,Ella Patterson,2,Elaine Fileman,Tavistock,Yeovil,10 May 25
+23,40.95,Khelya Ekwe,2,Paul Weston,Croydon,Gillingham,6 Jul 25
+24,40.43,Sapphire Houston-Ball,3,,Blackheath & Bromley,Basingstoke,17 May 25
+25,39.72,Ffion Mabey,2,Peter Roberts,Carmarthen,Cardiff,29 Jun 25
+26,39.32,Georgina Neilson,1,Matthew Sutton,Wolverhampton & Bilston,Nuneaton,28 Jun 25
+27,39.20,Hana Gay,3,,Glasgow Jaguars,Carlisle,18 Jun 25
+28,39.03,Elise Beardsworth,1,Sebastian Wadlow,Dacorum,Cambridge,13 Jul 25
+29,38.88,Hannah Clemo,3,Steve Clemo,Newquay & Par,Par,10 May 25
+30,38.73,Eve Mengham,1,,Havant,Portsmouth,14 Jun 25
+31,38.11,Isabella Wilson,2,,Thanet AC,Hastings,13 Jul 25
+32,38.03,Penelope Thornton,1,Marjolein Templeton,Retford,Mansfield,25 May 25
+33,37.60,Alice Tyrer,1,,Skyrac,Leeds (B),13 Jul 25
+34,37.19,Rebekah Pratt,3,David Dix,Swansea,Swansea,10 May 25
+35,37.11,Georgia Turner,2,David Thomas,Blyth,Hexham,14 Jun 25
+36,37.07,Alicia Mae Howard,2,,Thetford,Cambridge,27 Apr 25
+37,36.81,Savana Krunity-Salako,1,,Team Bath,Swindon,14 Jun 25
+38,36.44,Eva Murray,1,Craig Pounder,City of York,Lincoln,22 Jun 25
+39,36.39,Freya Davey,1,Jamie Bath,Braintree,Hendon,29 Mar 25
+40,35.79,Jemima Hargreaves,2,Andrew Hughes,Bracknell AC,Hendon,6 Jul 25
+41,35.36,Harley Keith,2,,Aberdeen,Aberdeen,7 May 25
+42,34.82,Vienos Abdullah,1,Matthew Sutton,Wolverhampton & Bilston,Tipton,25 May 25
+43,34.73,Hayley Dimond,3,Claire Dimond,Rugby & Northampton,Milton Keynes,6 Jul 25
+44,34.02,Millie Egerton,1,Lee Doyle,Macclesfield,Ellesmere Port,10 May 25
+45,33.33,Sophie Wardle,1,,Andover,Horspath,17 May 25
+46,32.97,Hannah Carruthers,2,,Lancaster & Morecambe,Ellesmere Port,6 Jul 25
+47,32.85,Sophie Dillon,1,,Harrogate,Leeds,27 Apr 25
+48,32.33,Erin McBriar,2,Martin McBriar,Winchester,Winchester,27 Apr 25
+49,31.86,Katie Southworth,1,,Leigh,Blackburn,27 Apr 25
+50,31.72,Olivia Myers,1,Dominic Waring,Spenborough,Cleckheaton,13 Jul 25
+51,31.64,Jasmine Richards,1,Sandra Woodman,Yate,Yate,18 May 25
+52,31.50,Skyla Turbard,1,,Cheltenham,Gloucester,11 May 25
+53,31.30,Jasmin Musgrove F20/T20,2,,Crawley,Crawley,22 Jun 25
+54,31.22,Hollie Stitt,1,,North Down,Tullamore IRL,31 May 25
+55,30.99,Lacee Webb,1,,Blackheath & Bromley,Ashford,11 May 25
+56,30.65,Ash Hillier-Smith,1,Sam Hillier-Smith,Yate,Yate,11 May 25
+56,30.65,Morgane Argivier,1,,Swale Combined,Twickenham,13 Jul 25
+58,30.45,Emilia Wazydrag,1,,Woking,Kingston,22 Jun 25
+59,30.31,Eleanor Peters,1,,Wirral,Liverpool,11 May 25
+60,29.74,Mairead Mcgrath,1,Jamie Bath,Shaftesbury Barnet,Lee Valley,11 May 25
+61,29.67,Hattie Rastle-Connolly,2,Andrew Hughes,Bracknell AC,Chelmsford,22 Jun 25
+62,29.64,Billie Kennedy,1,,Derby,Derby,15 Apr 25
+63,29.54,Eve Muirhead,1,,Leeds City,Cudworth,10 May 25
+64,29.36,Jia Atkins,2,,Lewes,Lewes,22 Jun 25
+65,29.15,Efa Williams,1,,Swansea,Aberdare,5 Jul 25
+66,29.09,Hannah Turrell,1,,Worthing,Lewes,22 Jun 25
+67,28.83,Caitlan Burke,3,,Huntingdonshire,Cambridge,27 Apr 25
+68,28.79,Abigail Foster,1,Leonard Miller,Border,Leigh,25 May 25
+69,28.47,Sky Lewis,2,,Elswick,Shildon,17 May 25
+70,27.76,Zoe Arrenberg,1,,Cheltenham,Gloucester,5 May 25
+71,26.83,Megan Brown,2,,Deeside AAC,Connah's Quay,25 May 25
+72,26.76,Katelyn Milburn,1,Clive Thomson,Tavistock,Exeter,27 Apr 25
+73,26.51,Beth Palmer,1,Bob Broadbridge,Newbury,Poole,17 May 25
+74,26.49,Leo Swindells,2,,Bracknell AC,Finsbury Park,13 Jul 25
+75,26.26,Abigail Barr,2,,Ballymena & Antrim,Belfast,17 May 25
+76,26.20,Anna McArdle,2,,Rothwell,Cudworth,10 May 25
+77,26.05,Yasmin Baker,1,Karl Hopper,Wigan & District,Macclesfield,13 Jul 25
+78,25.39,Alicia Burman,1,,Ipswich,Finsbury Park,17 May 25
+79,25.37,Safiya Williams,1,Paul Filer,Yate,Yeovil,19 Apr 25
+80,24.97,Adora Sotannde,1,,Edinburgh AC,Kilmarnock,13 Apr 25
+81,24.80,Cherie Ufuoma,1,Les Hall,Bolton,York,31 May 25
+82,24.64,Mariah Marshall,2,Tom Cochrane,Bournemouth,Poole,11 May 25
+83,24.12,Maddy Powles-Warren,2,,City of Norwich,Eton,22 Jun 25
+84,24.06,Laila Sobers,1,Andrew Hughes,Bracknell AC,Bracknell,14 Jun 25
+85,23.13,Muna Mokah,1,,Huntingdonshire,Peterborough,10 May 25
