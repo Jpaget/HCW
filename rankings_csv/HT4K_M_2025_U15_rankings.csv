@@ -25,77 +25,79 @@ Rank,Perf,Name,Year,Coach,Club,Venue,Date
 23,38.83,Fabian Green,2,,Tipton,Stourport,3 May 25
 24,38.70,Filip Noga,2,,Carmarthen,Aberdare,5 Jul 25
 25,38.04,Chidera Asiegbu,2,,Essex Schs,Chelmsford,14 Jun 25
-26,37.91,Ewan Dermody,1,David Callaway,Southampton,Winchester,16 Jul 25
-27,37.47,Zeki Ruso,2,,Worthing,Brighton,4 Jul 25
-28,37.20,Kian Traynor,2,Paul Cheal,Woodford Green Essex Ladies,Bromley,29 Jun 25
-29,37.11,Oliver Dutton,2,,Greater Manchester Schs,Stretford,14 Jun 25
-30,36.75,Johnny Jones,1,Michael Martin,Trafford,Preston,29 Jun 25
-31,35.59,Jonny Evans,2,,Shaftesbury Barnet,Hemel Hempstead,7 Jun 25
-32,35.41,Miles Lugo-Hankins,2,,Ipswich,Crystal Palace,7 Jun 25
+26,37.92,Miles Lugo-Hankins,2,,Ipswich,Cambridge,19 Jul 25
+27,37.91,Ewan Dermody,1,David Callaway,Southampton,Winchester,16 Jul 25
+28,37.47,Zeki Ruso,2,,Worthing,Brighton,4 Jul 25
+29,37.20,Kian Traynor,2,Paul Cheal,Woodford Green Essex Ladies,Bromley,29 Jun 25
+30,37.11,Oliver Dutton,2,,Greater Manchester Schs,Stretford,14 Jun 25
+31,36.75,Johnny Jones,1,Michael Martin,Trafford,Preston,29 Jun 25
+32,35.59,Jonny Evans,2,,Shaftesbury Barnet,Hemel Hempstead,7 Jun 25
 33,35.16,Henry Longden,2,,Cheltenham,Yate,29 Jun 25
 34,34.68,Leo Bamber,2,,St. Mary's Richmond,Crystal Palace,7 Jun 25
-35,34.50,Alexandros Dimitroulakis,2,,Kilbarchan,Grangemouth,7 Jun 25
-36,34.37,Elijah Turner,2,,SS Athletics,Ware,18 May 25
-37,33.54,Zachary Brink,1,Lorraine Shaw,Gloucester,Gloucester,14 Jun 25
-38,32.72,Arthur Roberts,2,,Cheltenham,Gloucester,16 Jul 25
-39,32.45,Leonard Hewings,2,,London Heathside,Finsbury Park,1 Jun 25
-40,32.41,Jack Holden,1,,Wirral,Preston,29 Jun 25
-41,32.26,Dexter Barrett,2,,Rugby & Northampton,Rugby,12 Apr 25
-42,32.20,Panagiotis Karletsos,2,,Winchester,Portsmouth,29 Jun 25
-43,31.95,Evan Middlemiss,1,,Blackheath & Bromley,Tonbridge,1 Jun 25
-44,31.02,Caden Evans Robertson,2,,Pembrokeshire,Aberdare,5 Jul 25
-45,30.48,Aavash Bashyal,1,,Kent Schs,Gillingham,14 Jun 25
-46,30.29,Rowan Durkin,2,,Dacorum,Eton,3 May 25
-47,30.17,Jacob Dines,1,Michael McNeill,West Suffolk,Peterborough,6 Jul 25
-48,29.90,Adam Edward Hayes,1,,Newark AC,Loughborough,9 Jul 25
-49,29.23,Kendrick Onolememen,1,John Hillier,Cambridge H,Brighton,1 Jun 25
-50,28.91,Kohl Slack,2,,Cumbria Schs,Carlisle,14 Jun 25
-51,28.90,Ioan Jones,2,,Swansea,Brecon,18 May 25
-52,28.77,Henry Eynon,1,,SS Athletics,Chelmsford,15 Jun 25
-53,28.70,Aaron Bell,2,Paul Bradley,Basildon,Colchester,18 May 25
-54,28.42,Story Bundy,2,Alex Pope,Invicta East Kent,Gillingham,5 Jul 25
-55,28.27,Hector Johnson,1,Shirley Quinn,Chelmsford,Chelmsford,10 May 25
-56,28.23,Johnathan Andrew,2,,Rugby & Northampton,Corby,11 May 25
-56,28.23,Jackson Crawshaw,2,,Cumbria Schs,Carlisle,4 Jun 25
-58,27.88,Oliver Oâ€™Dowd,1,,Lagan Valley,Belfast,22 May 25
-59,27.72,Dylan Littlefield,,,Swindon,Stoke,21 Jun 25
-60,27.51,Harry Lamb,1,,Wigan & District,Blackpool,14 Jun 25
-61,27.47,George Grey,2,,Hereford & Worcester Schs,Stoke,21 Jun 25
-62,27.44,Zeekie Yansaneh,1,,Harrogate,Shildon,18 May 25
-63,27.25,Finn Studholme,2,,Mansfield,Mansfield,1 Jun 25
-64,27.15,Tom Posner,2,,Northern Ireland Schs,Belfast,14 May 25
-65,27.02,Gabriel Sunday,1,,Kent Schs,Eltham,21 Apr 25
-66,26.80,Carter Williams,2,Paul Bradley,Basildon,Kingston,29 Jun 25
-67,26.54,Fabian Smith,2,,Harrogate,Whitley Bay,22 Jun 25
-68,26.45,Rex Worsley,2,,Middlesex Schs,Lee Valley,14 Jun 25
-69,26.37,Ronan Grant,2,,Newcastle & District,Tullamore IRL,28 Jun 25
-70,26.02,Will Bundy,2,,Essex Schs,Chelmsford,14 Jun 25
-71,26.01,Adam Corry-Wilson,2,,Sale Harriers Manchester,Preston,29 Jun 25
-72,26.00,Seyi Amakor,1,,Essex Schs,Chelmsford,14 Jun 25
-73,25.84,Toby Barton,2,Martin McBriar,Winchester,Winchester,19 Apr 25
-74,25.74,John Devlin,2,,Letterkenny,Belfast,15 Jun 25
-75,25.67,Chengrui Ma,1,,Kent Schs,Gillingham,14 Jun 25
-76,25.55,Evans Robertson,2,,Carmarthen,Swansea,7 Jun 25
-77,25.50,Leo Thornton,2,,Border,Carlisle,29 Jun 25
-78,25.43,Stanley Powell,1,,Kent Schs,Tonbridge,21 Apr 25
-79,25.12,Gabriel Thompson,2,,City of York,Cudworth,10 May 25
-80,25.09,Oliver Jensen,2,,Jarrow & Hebburn,Whitley Bay,27 Apr 25
-81,25.03,Damian McNally,2,,Peterborough & Nene Valley,Peterborough,6 Jul 25
-82,24.85,Matty Bidgood,2,,Somerset Schs,Yeovil,14 Jun 25
-83,24.84,Joachim Okugbe,2,,Croydon,Kingston,29 Jun 25
-84,24.76,Frank James,2,,Chichester,Portsmouth,29 Jun 25
-85,24.69,Zach Taylor,2,Matt Drury,Leeds City,Sheffield,3 May 25
-86,24.64,Freddie Gay,2,,Chichester,Portsmouth,29 Jun 25
-87,24.61,Oghenemaro Onohwakpo,2,,Marshall Milton Keynes,Milton Keynes,1 Jun 25
-88,24.55,Hayden Raymond,2,,Medway & Maidstone,Gillingham,14 Jun 25
-89,24.38,Charlie Edwards,1,,Rhondda,Aberdare,3 May 25
-90,24.34,Max Hepburn Evans,1,,Tonbridge,Bromley,29 Jun 25
-91,24.04,Ethan Johnson,2,,Havering,Kingston,29 Jun 25
-92,24.01,Zaidyn Thomson,2,,Cumbria Schs,Carlisle,14 Jun 25
-93,23.66,Andrew Irvine,2,Sharon Jacks,Solihull & Small Heath,Rugby,3 May 25
-94,23.65,Max Fulton,1,,Kilbarchan,Linwood,24 May 25
-95,23.29,Ethan Best,2,,Daventry,Tamworth,29 Jun 25
-96,23.20,Kian Nynan,2,,Hillingdon,Walton,29 Jun 25
-97,23.08,Samuel Burgoyne-Richards,2,,Dacorum,Wycombe,29 Jun 25
-98,23.06,Harrison Dawe,1,,Woodford Green Essex Ladies,Woodford Green,3 May 25
+34,34.68,Frederick Strong,2,John Little,Border,Carlisle,19 Jul 25
+36,34.50,Alexandros Dimitroulakis,2,,Kilbarchan,Grangemouth,7 Jun 25
+37,34.37,Elijah Turner,2,,SS Athletics,Ware,18 May 25
+38,33.54,Zachary Brink,1,Lorraine Shaw,Gloucester,Gloucester,14 Jun 25
+39,32.89,Arthur Roberts,2,,Cheltenham,Swindon,20 Jul 25
+40,32.45,Leonard Hewings,2,,London Heathside,Finsbury Park,1 Jun 25
+41,32.41,Jack Holden,1,,Wirral,Preston,29 Jun 25
+42,32.26,Dexter Barrett,2,,Rugby & Northampton,Rugby,12 Apr 25
+43,32.20,Panagiotis Karletsos,2,,Winchester,Portsmouth,29 Jun 25
+44,31.95,Evan Middlemiss,1,,Blackheath & Bromley,Tonbridge,1 Jun 25
+45,31.02,Caden Evans Robertson,2,,Pembrokeshire,Aberdare,5 Jul 25
+46,30.86,Aaron Bell,2,Paul Bradley,Basildon,Mile End,20 Jul 25
+47,30.48,Aavash Bashyal,1,,Kent Schs,Gillingham,14 Jun 25
+48,30.29,Rowan Durkin,2,,Dacorum,Eton,3 May 25
+49,30.17,Jacob Dines,1,Michael McNeill,West Suffolk,Peterborough,6 Jul 25
+50,29.90,Adam Edward Hayes,1,,Newark AC,Loughborough,9 Jul 25
+51,29.23,Kendrick Onolememen,1,John Hillier,Cambridge H,Brighton,1 Jun 25
+52,29.14,Carter Williams,2,Paul Bradley,Basildon,Cambridge,19 Jul 25
+53,28.91,Kohl Slack,2,,Cumbria Schs,Carlisle,14 Jun 25
+54,28.90,Ioan Jones,2,,Swansea,Brecon,18 May 25
+55,28.77,Henry Eynon,1,,SS Athletics,Chelmsford,15 Jun 25
+56,28.42,Story Bundy,2,Alex Pope,Invicta East Kent,Gillingham,5 Jul 25
+57,28.27,Hector Johnson,1,Shirley Quinn,Chelmsford,Chelmsford,10 May 25
+58,28.23,Johnathan Andrew,2,,Rugby & Northampton,Corby,11 May 25
+58,28.23,Jackson Crawshaw,2,,Cumbria Schs,Carlisle,4 Jun 25
+60,28.22,Zach Taylor,2,Matt Drury,Leeds City,Hull,20 Jul 25
+61,27.88,Oliver O’Dowd,1,,Lagan Valley,Belfast,22 May 25
+62,27.72,Dylan Littlefield,,,Swindon,Stoke,21 Jun 25
+63,27.51,Harry Lamb,1,,Wigan & District,Blackpool,14 Jun 25
+64,27.47,George Grey,2,,Hereford & Worcester Schs,Stoke,21 Jun 25
+65,27.44,Zeekie Yansaneh,1,,Harrogate,Shildon,18 May 25
+66,27.25,Finn Studholme,2,,Mansfield,Mansfield,1 Jun 25
+67,27.15,Tom Posner,2,,Northern Ireland Schs,Belfast,14 May 25
+68,27.02,Gabriel Sunday,1,,Kent Schs,Eltham,21 Apr 25
+69,26.54,Fabian Smith,2,,Harrogate,Whitley Bay,22 Jun 25
+70,26.45,Rex Worsley,2,,Middlesex Schs,Lee Valley,14 Jun 25
+71,26.37,Ronan Grant,2,,Newcastle & District,Tullamore IRL,28 Jun 25
+72,26.09,Toby Barton,2,Martin McBriar,Winchester,Southampton,20 Jul 25
+73,26.02,Will Bundy,2,,Essex Schs,Chelmsford,14 Jun 25
+74,26.01,Adam Corry-Wilson,2,,Sale Harriers Manchester,Preston,29 Jun 25
+75,26.00,Seyi Amakor,1,,Essex Schs,Chelmsford,14 Jun 25
+76,25.67,Chengrui Ma,1,,Kent Schs,Gillingham,14 Jun 25
+77,25.55,Evans Robertson,2,,Carmarthen,Swansea,7 Jun 25
+78,25.50,Leo Thornton,2,,Border,Carlisle,29 Jun 25
+79,25.43,Stanley Powell,1,,Kent Schs,Tonbridge,21 Apr 25
+80,25.12,Gabriel Thompson,2,,City of York,Cudworth,10 May 25
+81,25.09,Oliver Jensen,2,,Jarrow & Hebburn,Whitley Bay,27 Apr 25
+82,25.04,Joachim Okugbe,2,,Croydon,Mile End,20 Jul 25
+83,25.03,Damian McNally,2,,Peterborough & Nene Valley,Peterborough,6 Jul 25
+84,24.85,Matty Bidgood,2,,Somerset Schs,Yeovil,14 Jun 25
+85,24.76,Frank James,2,,Chichester,Portsmouth,29 Jun 25
+86,24.74,Kian Nynan,2,,Hillingdon,Kingston,20 Jul 25
+87,24.64,Freddie Gay,2,,Chichester,Portsmouth,29 Jun 25
+88,24.61,Oghenemaro Onohwakpo,2,,Marshall Milton Keynes,Milton Keynes,1 Jun 25
+89,24.55,Hayden Raymond,2,,Medway & Maidstone,Gillingham,14 Jun 25
+90,24.38,Charlie Edwards,1,,Rhondda,Aberdare,3 May 25
+91,24.34,Max Hepburn Evans,1,,Tonbridge,Bromley,29 Jun 25
+92,24.04,Ethan Johnson,2,,Havering,Kingston,29 Jun 25
+93,24.03,Oliver Walker,1,,City of York,Hull,20 Jul 25
+94,24.01,Zaidyn Thomson,2,,Cumbria Schs,Carlisle,14 Jun 25
+95,23.66,Andrew Irvine,2,Sharon Jacks,Solihull & Small Heath,Rugby,3 May 25
+96,23.65,Max Fulton,1,,Kilbarchan,Linwood,24 May 25
+97,23.29,Ethan Best,2,,Daventry,Tamworth,29 Jun 25
+98,23.08,Samuel Burgoyne-Richards,2,,Dacorum,Wycombe,29 Jun 25
+99,23.06,Harrison Dawe,1,,Woodford Green Essex Ladies,Woodford Green,3 May 25
 ,30.09,Zack Mc Kenna,2,,Glaslough,Belfast,15 Jun 25
+,25.74,John Devlin,2,,Letterkenny/IRL,Belfast,15 Jun 25
