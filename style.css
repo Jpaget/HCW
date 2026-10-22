@@ -239,7 +239,7 @@ footer {
 /* Style for the arrow icons themselves (if you're using text or font icons) */
 .year-nav-btn:before {
   content: '\2190';  /* Left arrow for previous year */
-  font-size: 30px;  /* Make the arrow larger */
+  font-size: 30px;  /* Make it larger */
   display: inline-block;
   margin-right: 10px;  /* Space between the arrow and the text */
 }
@@ -355,6 +355,38 @@ main h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
   color: #333;
+}
+
+/* History page photo */
+.history-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.history-photo {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.history-intro-text {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .history-intro {
+    flex-direction: column;
+  }
+
+  .history-photo {
+    width: 100%;
+    max-width: 420px;
+  }
 }
 
 
