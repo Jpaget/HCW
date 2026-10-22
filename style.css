@@ -367,7 +367,7 @@ main h2 {
 
 .history-photo {
   width: 100px;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
@@ -384,7 +384,7 @@ main h2 {
   }
 
   .history-photo {
-    width: 50%;
+    width: 100%;
     max-width: 420px;
   }
 }
