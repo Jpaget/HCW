@@ -143,19 +143,25 @@
         </ul>
       </section>
 
-      <</section>
+     </section>
 
       <section class="contact-form">
         <h2>Send a message</h2>
-      src="<iframe src="<iframe src="<iframe src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVhWFW9bPJNqDyXPlTffQ6VvPr_RmYgEtzXZ7McNAe8yT8jA/viewform?embedded=true" width="640" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      width="100%"
-      height="1978"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0">
-      Loading…
-    </iframe>
-  </div>
+        <form action="mailto:ContactHammerCircle@gmail.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required />
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+          </div>
 
 
           <button type="submit">Send enquiry</button>
