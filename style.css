@@ -241,7 +241,7 @@ footer {
   content: '\2190';  /* Left arrow for previous year */
   font-size: 30px;  /* Make it larger */
   display: inline-block;
-  margin-right: 10px;  /* Space between the arrow and the text */
+  margin-right: 10px;  /* Space between the button and text */
 }
 
 /* Adjust for next year button */
@@ -417,4 +417,38 @@ main h2 {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Awards table: keep the table within its container and allow small screens to scroll */
+.table-container {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 0 30px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-container table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
