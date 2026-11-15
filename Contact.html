@@ -1,108 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact - Hammer Circle</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 30px;
-      margin-top: 20px;
-    }
-
-    .contact-card,
-    .contact-form {
-      background: #f9f9f9;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 25px;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-    }
-
-    .contact-card h2,
-    .contact-form h2 {
-      margin-top: 0;
-      font-size: 2rem;
-      color: #333;
-    }
-
-    .contact-list {
-      list-style: none;
-      padding: 0;
-      margin: 20px 0 0;
-    }
-
-    .contact-list li {
-      margin-bottom: 15px;
-      font-size: 1.1rem;
-    }
-
-    .contact-list strong {
-      display: inline-block;
-      width: 110px;
-      color: #8B0000;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-
-    label {
-      font-weight: bold;
-      color: #333;
-    }
-
-    input,
-    textarea,
-    button {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 12px 14px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font: inherit;
-    }
-
-    textarea {
-      min-height: 140px;
-      resize: vertical;
-    }
-
-    button {
-      background: #8B0000;
-      color: white;
-      border: none;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.2s ease;
-    }
-
-    button:hover {
-      background: #5f0000;
-    }
-
-    @media (max-width: 768px) {
-      .contact-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help and Advice - Hammer Circle</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="header-content">
-      <img src="assets/logo.png" alt="Hammer Circle Logo" class="logo" />
+      <img src="assets/logo.png" alt="Hammer Circle Logo" class="logo">
       <div class="header-text">
-        <h1>Contact</h1>
+        <h1>Help and Advice</h1>
       </div>
     </div>
   </header>
-
    <nav>
     <div class="menu">
       <ul>
@@ -115,6 +27,7 @@
             <li><a href="awards.html">Awards</a></li>
             <li><a href="constitution.html">Constitution</a></li>
             <li><a href="presidents.html">Presidents, Vice & Honorary</a></li>
+          
           </ul>
         </li>
         <li class="dropdown">
@@ -124,12 +37,26 @@
             <li><a href="prev_reunions.html">Archive</a></li>
           </ul>
         </li>
-        <li><a href="help.html">Help and advice</a></li>
+ 
+        
+        <li class="dropdown">
+          <a onclick="toggleDropdown(event)">Help and Advice</a>
+        
+   
+   <ul class="dropdown-menu">
+            
+            <li><a href="assets/pdf_docs/Help and Advice/hammercirclespec.pdf">Hammer Circle Construction</a></li>
+<li><a href="https://www.uka.org.uk/wp-content/uploads/2026/03/UKA_RulesForCompetition_1st-April2026_V1.pdf">Rules For Competition</a></li>
+ <li><a href="https://www.marshsport.co.uk/ngb-schemes/uka.html">Coaching Insurance</a></li>         
+          <li><a href="help.html">Coaching Research and Advice</a></li>  
+          </ul>
+        </li>   
+        
+        
         <li><a href="Contact.html">Contact Us</a></li>
       </ul>
     </div>
   </nav>
-
   <main>
     <div class="contact-grid">
       <section class="contact-card">
