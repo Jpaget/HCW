@@ -389,4 +389,32 @@ main h2 {
   }
 }
 
+/* Contact page layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
 
+.contact-card,
+.contact-form {
+  min-width: 0;
+  padding: 24px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
